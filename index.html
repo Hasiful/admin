@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- global css -->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+    <!-- 
+    ===================================
+        start  header section 
+    =================================== 
+    -->
+
+    <header class="header_section">
+        <div class="header_container">
+
+            <div class="header_wrapper">
+                <button id="toggleBtn" class="mobile_nav">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </button>
+                <!-- header left -->
+                <div class="header_left">
+                    <!-- header logo -->
+                    <div class="header_logo">
+                        <div class="header_logo_image">
+                            <img src="assets/image/edulogo.png" alt="">
+                        </div>
+                    </div>
+                    <!-- header nav -->
+                    <nav class="header_nav">
+                        <!-- item -->
+                        <div class="header_nav_item">
+                            <div class="header_nav_icon"><i class="fa-solid fa-house-chimney"></i></div>
+                            <div class="header_nav_text">Home</div>
+                        </div>
+                        <!-- item -->
+                        <div class="header_nav_item">
+                            <div class="header_nav_icon"><i class="fa-solid fa-gauge-high"></i></div>
+                            <div class="header_nav_text">Dashboard</div>
+                        </div>
+                        <!-- item -->
+                        <div class="header_nav_item">
+                            <div class="header_nav_icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                            <div class="header_nav_text">Token</div>
+                        </div>
+                    </nav>
+                </div>
+                <!-- header profile -->
+                <div class="header_profile">
+                    <img src="assets/image/profle.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 
+    ===================================
+        End  header section 
+    =================================== 
+    -->
+
+
+    <!-- 
+    ===================================
+        start dashboard sidebar 
+    =================================== 
+    -->
+
+    <section class="admin_sidebar" id="sidebar">
+        <div class="sidebar_wrapper">
+            <!-- sidebar top -->
+            <div class="sidebar_top">
+                <!-- item -->
+                <div class="institute_id">
+                    <span>institute id</span>
+                    <span>15463</span>
+                </div>
+                <!-- item -->
+                <div class="institute_id curent_year">
+                    <span>Current year</span>
+                    <span>2022</span>
+                </div>
+            </div>
+            <!-- search -->
+            <div class="sidebar_search">
+                <div class="inner_search">
+                    <input type="text" class="input_control" placeholder="Search">
+                    <div class="input_icon"><i class="fa-solid fa-angle-down"></i></div>
+                </div>
+            </div>
+
+            <!-- sidebar_nav -->
+            <nav class="sidebar_nav">
+                <ul>
+                    <!-- item -->
+                    <li class="toggleItem">
+                        <a> <span class="sidebar_navitem_left"> student </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                            <i class="fa-solid fa-table-columns"></i></span> 
+                         </a>
+                    
+                        <ul class="sidenav_sub_menu">
+                            <li><a href=""><span>hasif</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                            <li><a href=""><span>nabil</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                            <li><a href=""><span>rakib</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                        </ul>
+                    </li>
+                                  <!-- item -->
+                                  <li class="toggleItem"><a> <span class="sidebar_navitem_left"> HR Management </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                                    <i class="fa-solid fa-people-roof"></i></span> </a>
+                                
+                                    <ul class="sidenav_sub_menu">
+                                        <li><a href=""><span>hasif</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>nabil</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>rakib</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                    </ul>
+                                </li>
+                                <!-- item -->
+                                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> student attetdens </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                                    <i class="fa-solid fa-table-columns"></i></span> </a>
+                                
+                                    <ul class="sidenav_sub_menu">
+                                        <li><a href=""><span>hasif</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>nabil</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>rakib</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                    </ul>
+                                </li>
+                                <!-- item -->
+                                <li class="toggleItem"><a> <span class="sidebar_navitem_left">HR attetdens </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                                    <i class="fa-solid fa-table-columns"></i></span> </a>
+                                
+                                    <ul class="sidenav_sub_menu">
+                                        <li><a href=""><span>hasif</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>nabil</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>rakib</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                    </ul>
+                                </li>
+                                <!-- item -->
+                                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> Semester Exam </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                                    <i class="fa-solid fa-table-columns"></i></span> </a>
+                                
+                                    <ul class="sidenav_sub_menu">
+                                        <li><a href=""><span>hasif</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>nabil</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>rakib</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                    </ul>
+                                </li>
+                                <!-- item -->
+                                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> Class Test </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                                    <i class="fa-solid fa-table-columns"></i></span> </a>
+                                
+                                    <ul class="sidenav_sub_menu">
+                                        <li><a href=""><span>hasif</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>nabil</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>rakib</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                    </ul>
+                                </li>
+                                <!-- item -->
+                                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> Routine </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                                    <i class="fa-solid fa-table-columns"></i></span> </a>
+                                
+                                    <ul class="sidenav_sub_menu">
+                                        <li><a href=""><span>hasif</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>nabil</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>rakib</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                    </ul>
+                                </li>
+                                <!-- item -->
+                                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> student Acounts </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                                    <i class="fa-solid fa-table-columns"></i></span> </a>
+                                
+                                    <ul class="sidenav_sub_menu">
+                                        <li><a href=""><span>hasif</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>nabil</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>rakib</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                    </ul>
+                                </li>
+                                <!-- item -->
+                                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> payroll </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                                    <i class="fa-solid fa-table-columns"></i></span> </a>
+                                
+                                    <ul class="sidenav_sub_menu">
+                                        <li><a href=""><span>hasif</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>nabil</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>rakib</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                    </ul>
+                                </li>
+                                <!-- item -->
+                                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> inventory </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                                    <i class="fa-solid fa-table-columns"></i></span> </a>
+                                
+                                    <ul class="sidenav_sub_menu">
+                                        <li><a href=""><span>hasif</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>nabil</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>rakib</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                    </ul>
+                                </li>
+                                <!-- item -->
+                                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> general Acounts</span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                                    <i class="fa-solid fa-table-columns"></i></span> </a>
+                                
+                                    <ul class="sidenav_sub_menu">
+                                        <li><a href=""><span>hasif</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>nabil</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>rakib</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                    </ul>
+                                </li>
+                                <!-- item -->
+                                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> layout </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                                    <i class="fa-solid fa-table-columns"></i></span> </a>
+                                
+                                    <ul class="sidenav_sub_menu">
+                                        <li><a href=""><span>hasif</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>nabil</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                        <li><a href=""><span>rakib</span> <span><i class="fa-solid fa-angle-down"></i> </span></a></li>
+                                    </ul>
+                                </li>
+      
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- 
+    ===================================
+        End dashboard sidebar 
+    ===================================   
+    -->
+
+
+
+    <!-- 
+    ===================================
+        start dashboard body 
+    ===================================   
+    -->
+
+    <section class="admin_body">
+        <div class="admin_wrapper">
+            <div class="admin_body_right">
+
+             <div class="admin_body_right_top">
+                <div class="admin_person">
+                    <div class="admin_person_image">
+                        <img src="assets/image/profile1.png" alt="">
+                    </div>
+                    <div class="admin_person_name">Hasiful Islam</div>
+                    <div class="admin_person_id">HR ID: 000224</div>
+                </div>
+
+                <div class="admin_person_school">
+                    <div class="admin_person_school_img admin_person_image">
+                        <img src="assets/image/profile1.png" alt="">
+                    </div>
+                    <div class="admin_person_school_name">Genius Ideal School</div>
+                    <div class="admin_person_school_address">KarimGanj Kishorganj</div>
+                    <div class="admin_person_school_id">Institute ID: 05224</div>
+                </div>
+             </div>
+
+
+             <div class="admin_body_right_bottom">
+                <div class="payment_sms">
+                    <div class="payment_sms_icon">
+                        <span><i class="fa-solid fa-comments-dollar"></i></span>
+                    </div>
+                    <div class="payment_sms_content">
+                        <div class="payment_sms_title">SMS Balance</div>
+                        <div class="payment_sms_taka">0</div>
+                         <a href="" class="payment_sms_learn"><span>purchase Here</span> <span><i class="fa-solid fa-chevron-right"></i></span></a>
+                    </div>
+                </div>
+
+                <div class="payment_sms">
+                    <div class="payment_sms_icon">
+                        <span><i class="fa-solid fa-address-card"></i></span>
+                    </div>
+                    <div class="payment_sms_content">
+                        <div class="payment_sms_title">Payment Type</div>
+                    </div>
+                </div>
+             </div>
+
+            </div>
+            <div class="admin_body_left">
+                <div class="admin_body_left_box"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+    ===================================
+        End dashboard body 
+    ===================================   
+    -->
+<script src="assets/js/app.js"></script>
+</body>
+</html>
