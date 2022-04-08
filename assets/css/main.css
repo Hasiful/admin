@@ -73,6 +73,10 @@
     mix-blend-mode: hard-light;
 }
 
+
+
+
+
 /* 
 ========================
  End header section
@@ -169,24 +173,30 @@
 }
 
 .sidebar_nav{
-    padding-left: 20px;
+    padding-left: 10px;
     padding-right: 35px;
 }
 .sidebar_nav > ul{}
 .sidebar_nav > ul > li{
-    margin-bottom: 23px;
+    
 }
-.sidebar_nav > ul > li > a{
+
+li.toggleItem.active {
+    background: rgb(5 5 10 / 70%);
+    border-radius: 5px;
+}
+
+
+.sidebar_nav > ul > li > a {
     color: #fff;
     font-size: 14px;
     text-transform: capitalize;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 11px 10px;
 }
-/* .sidebar_nav > ul > li > a:hover .sidebar_navitem_right i:nth-child(1){
-    transform: rotate(180deg);
-} */
+
 
 .sidebar_navitem_right {
     display: flex;
@@ -204,17 +214,43 @@
 }
 
 .sidenav_sub_menu {
-    padding-left: 13px;
-    padding-right: 26px;
-    margin-top: 10px;
-    border-left: 1px solid #fff;
+    padding-left: 24px;
+    padding-right: 39px;
     display: none;
+    position: relative;
 }
-.active .sidenav_sub_menu{
+.sidenav_sub_menu::after {
+    content: "";
+    position: absolute;
+    height: 90%;
+    width: 1.5px;
+    background-color: var(--secondColor);
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+.active .sidenav_sub_menu {
     display: block;
+    background: rgb(12 16 58 / 70%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
-.sidenav_sub_menu li:not(:last-child) {
+.sidenav_sub_menu > li:not(:last-child) {
     margin-bottom: 10px;
+}
+.sidenav_sub_menu li{
+    position: relative;
+}
+.sidenav_sub_menu > li::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 1px;
+    background: var(--secondColor);
+    top: 10px;
+    left: -13px;
 }
 .sidenav_sub_menu li a{
     display: flex;
@@ -225,6 +261,47 @@
     color: #fff;
     font-size: 14px;
 }
+
+
+.sidenav_sub_menu_sub {
+    padding: 20px 0px 20px 10px;
+    position: relative;
+    margin-top: 10px;
+    display: none;
+}
+.activeList .sidenav_sub_menu_sub{
+    display: block;
+}
+
+.sidenav_sub_menu_sub::after{
+    content: "";
+    position: absolute;
+    height: 90%;
+    width: 1.5px;
+    background-color: var(--secondColor);
+    top: 50%;
+    transform: translateY(-50%);
+    left: -1px;  
+}
+
+.sidenav_sub_menu_sub li{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.sidenav_sub_menu_sub li::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 1px;
+    background: var(--secondColor);
+    top: 10px;
+    left: -11px;
+}
+
+
 /* 
 ===========================
  End sidebar section
