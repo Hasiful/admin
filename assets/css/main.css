@@ -3,12 +3,13 @@
  start header section
 ==========================
  */
-.header_section{
+ .header_section {
     background-color: var(--secondColor);
     padding: 10px 0px;
     position: fixed;
     top: 0px;
     left: 0px;
+    z-index: 999;
     width: 100%;
 }
 
@@ -97,10 +98,10 @@
     overflow-y: scroll;
     background-color: var(--secondColor);
     position: fixed;
-    left:-100%;
-    top:55px;
+    left: -100%;
+    top: 55px;
     transition: all .3s;
-
+    z-index: 999;
 }
 .showSidebar.admin_sidebar{
     left:0px;
@@ -177,19 +178,19 @@
     padding-right: 35px;
 }
 .sidebar_nav > ul{}
-.sidebar_nav > ul > li{
-    
+.sidebar_nav > ul > li {
+    margin-bottom: 4px;
 }
 
 li.toggleItem.active {
-    background: rgb(5 5 10 / 70%);
+    background: #1F234A;
     border-radius: 5px;
 }
 
 
 .sidebar_nav > ul > li > a {
     color: #fff;
-    font-size: 14px;
+    font-size: 13px;
     text-transform: capitalize;
     display: flex;
     align-items: center;
@@ -209,8 +210,8 @@ li.toggleItem.active {
     display: block;
     transition: all linear 0.3s;
 }
-.sidebar_navitem_right i:nth-child(2){
-    font-size: 16px;
+.sidebar_navitem_right i:nth-child(2) {
+    font-size: 20px;
 }
 
 .sidenav_sub_menu {
@@ -237,8 +238,10 @@ li.toggleItem.active {
     padding-top: 15px;
     padding-bottom: 10px;
 }
+
+
 .sidenav_sub_menu > li:not(:last-child) {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 .sidenav_sub_menu li{
     position: relative;
@@ -259,7 +262,16 @@ li.toggleItem.active {
 }
 .sidenav_sub_menu li a span {
     color: #fff;
+    font-size: 13px;
+}
+.sidebar_listReport {
     font-size: 14px;
+    color: #fff;
+    padding: 2px 8px;
+    background-color: var(--primaryColor);
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: -13px;
 }
 
 
@@ -284,9 +296,9 @@ li.toggleItem.active {
     left: -1px;  
 }
 
-.sidenav_sub_menu_sub li{
+.sidenav_sub_menu_sub li {
     color: #fff;
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 10px;
     position: relative;
 }

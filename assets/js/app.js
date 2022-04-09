@@ -1,3 +1,5 @@
+
+
 const toggleItem = document.getElementsByClassName("toggleItem")
 
 ;[...toggleItem].forEach(children=>{
@@ -25,4 +27,4 @@ const toggelSubItem = document.getElementsByClassName('toggleItemSub')
         children.classList.add("activeList")
     })
 })
-console.log(toggelSubItem)
+

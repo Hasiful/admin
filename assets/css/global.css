@@ -15,8 +15,8 @@ body{
     margin: 0px auto;
 }
 :root{
-    --primaryColor: #141a51;
-    --secondColor: #222B78;
+    --primaryColor: #1f234a;
+    --secondColor: #2E3192;
 }
 
 .mobile_nav {
