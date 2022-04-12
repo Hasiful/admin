@@ -1,0 +1,107 @@
+
+.profile_form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0px auto;
+    border: 1px solid #dfd0ff;
+    padding: 30px 20px
+}
+
+.form_group_profile {
+    width: 74% !important;
+}
+
+.profile_form_wrapper {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+.profile_form_text{
+    color: #5559ec;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.8;
+    max-width: 795px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 100px 0px;
+
+}
+
+.profile_table_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.profile_table td{
+    text-align: left;
+    padding-left: 13px;
+    font-size: 13px;
+    color: black;
+    font-weight: 300;
+}
+
+.profile_table_thInput{
+    display: block;
+    height: 30px;
+    max-width: 100px;
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #dde2ff;
+    padding-left: 3px;
+    outline: none;
+    border-radius: 2px;
+}
+.profile_table_thInput_Name{
+    max-width: 200px;
+    width: 100%;
+}
+.profile_table_thInput:focus{
+    border: 1px solid #5559ec;
+}
+
+.table_button_reset{
+    border: none;
+}
+.table_button_reset svg{
+    color: #fff;
+    background: #1c2d8c;
+    border-radius: 3px;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.student_table_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border: 1px solid #dde2ff!important;
+}
+.student_table_bottom span {
+    background-color: #1c2d8c;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 15px;
+    display: inline-block;
+}
+.student_table_bottom a i{
+    color: #7476ea;
+    display: block;
+    font-size: 14px;
+}
+
+.student_table_bottom_count{
+    
+}
+.student_table_bottom_count select {
+    border: 1px solid #dde2ff!important;
+    width: 70px;
+    height: 34px;
+    padding: 5px;
+    outline: none;
+}

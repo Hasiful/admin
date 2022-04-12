@@ -7,6 +7,17 @@
 
 .incrollment_body_header{
     border: 1px solid #dfd0ff;
+    position: relative;
+}
+.help-icon_header {
+    font-size: 25px !important;
+    display: flex;
+    color: red;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
 }
 .incrollment_body_header_tite {
     text-align: center;
@@ -96,7 +107,7 @@
 .hide_form_group {
     border: 1px solid #dfe0ff;
     border-radius: 5px;
-    /* position: absolute; */
+    position: absolute;
     width: 100%;
     z-index: 999;
     top: 56px;
@@ -170,7 +181,7 @@
 
 .incrolment_table {
     margin-top: 30px;
-    overflow: auto;
+    overflow-x: auto;
 }
 
 .incrolment_table_title {
@@ -194,9 +205,10 @@ table, td, th {
     border: 1px solid #ddd;
     text-align: left;
 }
-td{
+td {
     text-align: center;
     padding: .5em !important;
+    position: relative;
 }
   
 table {

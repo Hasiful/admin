@@ -1,0 +1,18 @@
+.basic_info_tab{
+    border-bottom: 5px solid #a5a7eb!important;
+    margin-bottom: 30px;
+}
+.basic_info_tab a {
+    font-size: 13px;
+    color: #3f51b5;
+    font-weight: 600;
+    padding: .625em 1em;
+    display: inline-block;
+    background-color: #dedfff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.basic_info_tab a:hover{
+    background-color: #3f51b5;
+    color: #fff;
+}

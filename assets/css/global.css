@@ -6,9 +6,7 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
-body{
-    background-color: #F1F5FF;
-}
+
 .container{
     width: 100%;
     padding: 0px 20px;
@@ -33,4 +31,7 @@ body{
     height: 2px;
     width: 25px;
     background-color: #F1F5FF;
+}
+svg {
+    display: block;
 }

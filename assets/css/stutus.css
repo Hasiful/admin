@@ -1,0 +1,24 @@
+.profile_form_table_tab{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #3f51b5;
+    padding: 0.625em 1em;
+    color: #fff;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+.profile_form_table_tab:hover{
+    background-color: #283593;
+}
+.profile_form_table_tab span{
+    font-size: 13px;
+    color: #fff;
+}
+.profile_form_table_tab span i{
+    display: flex;
+}
+.profile_form_table_tab2{
+    margin-top: 30px;
+}
+

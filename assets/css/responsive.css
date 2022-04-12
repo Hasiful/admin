@@ -15,6 +15,10 @@
 
 @media(min-width:768px){
    
+    .incrolment_table {
+        margin-top: 30px;
+        overflow-x: unset;
+    }
     
    
 }
@@ -77,6 +81,12 @@
     .form_group {
         width: 48%;
         position: relative;
+    }
+
+    .exelform_body_wrapper {
+        display: grid;
+        grid-template-columns: 62% 35%;
+        justify-content: space-between;
     }
 }
 

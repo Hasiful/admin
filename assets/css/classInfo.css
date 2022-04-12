@@ -1,0 +1,39 @@
+.classInfo_table_thInput_Name{
+    max-width: 400px;
+    width: 100%;
+}
+.table_input_class1 {
+    width: 150px;
+}
+.checkbox_table_class{
+    text-align: center !important;
+}
+
+.stuttu_table_bottom_btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.stuttu_table_btn{
+    background-color: #283593;
+    display: inline-flex;
+    padding: 7px 20px;
+    align-items: center;
+    gap: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+.stuttu_table_btnD{
+    background-color:  #e330b4 !important;
+}
+.stuttu_table_btn span{
+    font-size: 13px;
+    color: #fff;
+}
+.stuttu_table_btn span i{
+    display: flex;
+}
