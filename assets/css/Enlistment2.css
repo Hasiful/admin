@@ -1,0 +1,104 @@
+.Enlist_form{
+    max-width: 610px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.form_group_Enlistment {
+    width: 100% !important;
+}
+.Enlistment_form_box_wrapper
+{
+  align-items: flex-end;    
+}
+
+.Enlisment_group_label_button{
+    width: 150px;
+    text-align: center;
+}
+
+.table_inpun_enlist input{
+    max-width: 300px;
+
+}
+
+.hrbasic_table_img{
+    height: 50px;
+    width: 50px;
+}
+.hrbasic_table_img img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.stuttu_table_btnHr{
+    background-color: grey;
+}
+
+.exelform_body_border_wrapper_left_defer{
+    width: 100%;
+}
+
+.exelform_body_border_wrapper_right_defer{
+    width: 100%;
+}
+
+.form_group_label_button_plus{
+    text-align: center;
+}
+
+.incroment_form_box_wrapper_plus{
+    align-items: flex-end !important;
+}
+
+.profile_form_plus{
+    margin-left: auto !important;
+    margin-bottom: 150px !important;
+   
+}
+
+.group_massage_wrapper_application {
+    min-height: 300px;
+    border-radius: 3px;
+    position: relative;
+    background-color: #f5ffff;
+    border: 1px solid #a5fcff;
+    padding: 30px 20px!important;
+    display: inline-block;
+    max-width: 364px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.group_massage_wrapper_application_title{
+    text-align: left;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #6bebda;
+    color: #19bfa8;
+}
+
+.group_massage_wrapper_application_table {
+    margin-top: 30px;
+}
+
+.group_massage_wrapper_application_table li {
+    display: flex;
+    align-items: center;
+}
+.group_massage_wrapper_application_table li:not(:last-child){
+    margin-bottom: 20px;
+}
+.group_massage_wrapper_application_table li span{
+    color: #4c948a;
+    font-size: 13px;
+}
+
+span.group_massage_list_leave {
+    max-width: 126px;
+    width: 100%;
+    display: block;
+}

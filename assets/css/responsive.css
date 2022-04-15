@@ -88,6 +88,33 @@
         grid-template-columns: 62% 35%;
         justify-content: space-between;
     }
+    .profile_table_thInputDetails {
+        max-width: 300px;
+    }
+    .form_group_Enlistment {
+        width: 68% !important;
+    }
+
+    .exelform_body_border_wrapper{
+      flex-direction: row;
+      gap: 25px;
+    }
+    
+    .exelform_body_border_wrapper_left{
+        width: 38%;
+    }
+    
+    .exelform_body_border_wrapper_right{
+        width: 54%;
+    }
+
+    .exelform_body_border_wrapper_left_defer{
+        width: 50% !important;
+    }
+    
+    .exelform_body_border_wrapper_right_defer{
+        width: 50% !important;
+    }
 }
 
 /* 

@@ -12,6 +12,7 @@
     padding: 0px 20px;
     margin: 0px auto;
 }
+
 :root{
     --primaryColor: #1f234a;
     --secondColor: #2E3192;
@@ -22,16 +23,57 @@
     background: var(--secondColor);
     border: none;
 }
+
 .mobile_nav ul{
     display: flex;
     flex-direction: column;
     gap: 6px;
 }
+
 .mobile_nav ul li{
     height: 2px;
     width: 25px;
     background-color: #F1F5FF;
 }
+
 svg {
     display: block;
+}
+.table_button_resetEnle {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile_table_thInput_student input{
+    max-width: 195px;
+    width: 100%;
+}
+.custom_id_checkbox{
+    height: 15px !important;
+    width: 15px !important;
+}
+
+.idmapin_table_hedareth{
+    font-size: 13px;
+    font-weight: 400;
+    color: #ff5ad3;
+}
+.rollList_box_span_count{
+    color: #ff5ad3 !important;
+}
+
+.form_group_textarea{
+    outline: none;
+    border: 1px solid #dfd0ff;
+    padding: 15px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.form_group_label_device {
+    padding: 4px 5px;
+}
+.form_group_label_button_device{
+    width: 100px;
 }
