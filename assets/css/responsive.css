@@ -19,6 +19,12 @@
         margin-top: 30px;
         overflow-x: unset;
     }
+
+    .Attendance_Preview_hr_wrapper{
+    
+        grid-template-columns: repeat(3, 1fr);
+     
+    }
     
    
 }
@@ -62,10 +68,10 @@
         display: none;
     }
 
-    .admin_body{
+    .admin_body {
         margin-top: 55px;
-        margin-left: 260px;
-        width: calc(100% - 260px);
+        margin-left: 240px;
+        width: calc(100% - 240px);
         padding: 15px;
     }
 
@@ -114,6 +120,31 @@
     
     .exelform_body_border_wrapper_right_defer{
         width: 50% !important;
+    }
+    .form_group_timedeleteconfig {
+        width: 70% !important;
+    }
+    .Attendance_Preview_hr_wrapper{
+      
+        grid-template-columns: repeat(5, 1fr);
+     
+    }
+
+    .Attendance_Preview_hr_present_wrap{
+        
+        grid-template-columns: repeat(3, 1fr);
+       
+    }
+
+    .header_left {
+      
+        display: flex;
+    }
+
+    .admin_body_right_bottom_info_wrapper{
+
+        grid-template-columns: 40% auto 30%;
+      
     }
 }
 

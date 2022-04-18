@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/css/profile.css">
     <link rel="stylesheet" href="assets/css/Exelform.css">
     <link rel="stylesheet" href="assets/css/meritposition.css">
+    <link rel="stylesheet" href="assets/css/Enlistment2.css">
     <link rel="stylesheet" href="assets/css/classInfo.css">
     <!-- basic css -->
     <link rel="stylesheet" href="assets/css/basicInfo.css">
@@ -303,7 +304,7 @@
             <!--incrolment header -->
             <div class="incrollment_body_header">
                 <div class="incrollment_body_header_tite">
-                    <p>Upload Device Attendance File</p>
+                    <p> HR Attendance Information Status Wise </p>
                 </div>
 
                 <div class="help-icon_header">
@@ -315,50 +316,101 @@
 
 
             <div class="exelform_body_border">
+                
+                <!-- tab -->
+                <div class="basic_info_tab">
+                    <a href="">LEAVE CALENDAR </a>
+                    <a href="">LEAVE STATEMENT </a>
+                  
+                </div>
+
+
                 <div class="profile_form profile_form_wrapper_push">
                     <div class="profile_form_wrapper">
                         <!-- item -->
-                        <div class="form_group form_group_profile">
+                        <div class="form_group">
                             <!-- show -->
                             <div class="show_form_group">
                                 <!-- title -->
                                 <div class="show_form_group_title">
-                                    <span>Select Attendance Date</span>
+                                    <span> Academic Year </span>
                                     <span class="requirment">*</span>
-
-                                    
                                 </div>
 
                                 <!-- input box -->
-                                <input type="date" class="form_group_label form_group_label_input" placeholder="Enter No.Of Rows">
+                                <div class="form_group_label">
+                                    <div class="form_group_label_name">Select Academic Year </div>
+                                    <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
+                                </div>
+                            </div>
+
+                            <!-- hide -->
+                            <div class="hide_form_group">
+                                <div class="hide_form_group_search">
+                                    <input class="hide_form_group_search_input" type="text">
+                                </div>
+
+                                <div class="hide_form_group_search_list">
+                                    <ul>
+                                        <li class="">2022</li>
+                                        <li class="">2023</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
 
-                        <!-- item -->
-                        <div class="form_group form_group_profile">
+
+                          <!-- item -->
+                          <div class="form_group">
                             <!-- show -->
                             <div class="show_form_group">
                                 <!-- title -->
                                 <div class="show_form_group_title">
-                                    <span>Attendance txt File</span>
+                                    <span> Month </span>
                                     <span class="requirment">*</span>
-
-                                    
                                 </div>
 
                                 <!-- input box -->
-                                <input type="file" class="form_group_label form_group_label_device form_group_label_input" placeholder="Enter No.Of Rows">
+                                <div class="form_group_label">
+                                    <div class="form_group_label_name">Select Month</div>
+                                    <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
+                                </div>
+                            </div>
+
+                            <!-- hide -->
+                            <div class="hide_form_group hide_form_group_search_month">
+                                <div class="hide_form_group_search ">
+                                    <input class="hide_form_group_search_input" type="text">
+                                </div>
+
+                                <div class="hide_form_group_search_list">
+                                    <ul>
+                                        <li class="">January</li>
+                                        <li class="">February</li>
+                                        <li class="">March</li>
+                                        <li class="">April</li>
+                                        <li class="">May</li>
+                                        <li class="">June</li>
+                                        <li class="">July</li>
+                                        <li class="">August</li>
+                                        <li class="">September</li>
+                                        <li class="">Ocobor</li>
+                                        <li class="">November</li>
+                                        <li class="">december</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
 
-
-                        <div class="form_group_label_button form_group_label_button_device">
-                            <span><i class="fa-solid fa-cloud-arrow-up"></i></span>
-                            <span>Upload</span>
+                        <div class="form_group_label_button form_group_label_button_push">
+                            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <span>Search</span>
                         </div>
                     </div>
                 </div>
 
+                <div class="profile_form_text">No data is available! Please fillup all the required fields above and Click on <b>"Search"</b> button.</div>
+               
             </div>
         </div>
     </section>

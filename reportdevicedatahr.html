@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/css/profile.css">
     <link rel="stylesheet" href="assets/css/Exelform.css">
     <link rel="stylesheet" href="assets/css/meritposition.css">
+    <link rel="stylesheet" href="assets/css/Enlistment2.css">
     <link rel="stylesheet" href="assets/css/classInfo.css">
     <!-- basic css -->
     <link rel="stylesheet" href="assets/css/basicInfo.css">
@@ -303,7 +304,7 @@
             <!--incrolment header -->
             <div class="incrollment_body_header">
                 <div class="incrollment_body_header_tite">
-                    <p>Upload Device Attendance File</p>
+                    <p> Attendance Device Data </p>
                 </div>
 
                 <div class="help-icon_header">
@@ -315,50 +316,74 @@
 
 
             <div class="exelform_body_border">
+                
+                <!-- tab -->
+                <div class="basic_info_tab">
+                    <a href="">DATE WISE </a>
+                    <a href="">MAP UNMAP WISE </a>
+                  
+                  
+                </div>
+
+
                 <div class="profile_form profile_form_wrapper_push">
                     <div class="profile_form_wrapper">
                         <!-- item -->
-                        <div class="form_group form_group_profile">
+                        <div class="form_group">
+                            <div class="show_form_group">
+                                <!-- title -->
+                                <div class="show_form_group_title">
+                                    <span>Process In Time</span>
+                                    <span class="requirment">*</span>
+                                </div>
+    
+                                <!-- input box -->
+                                <input type="date" class="form_group_label form_group_label_input" placeholder="Start/Time/right" value="10">
+                            </div>
+                        </div>
+
+                          <!-- item -->
+                          <div class="form_group">
                             <!-- show -->
                             <div class="show_form_group">
                                 <!-- title -->
                                 <div class="show_form_group_title">
-                                    <span>Select Attendance Date</span>
+                                    <span> Receive Type</span>
                                     <span class="requirment">*</span>
-
-                                    
                                 </div>
 
                                 <!-- input box -->
-                                <input type="date" class="form_group_label form_group_label_input" placeholder="Enter No.Of Rows">
+                                <div class="form_group_label">
+                                    <div class="form_group_label_name">Select</div>
+                                    <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
+                                </div>
                             </div>
-                        </div>
 
-                        <!-- item -->
-                        <div class="form_group form_group_profile">
-                            <!-- show -->
-                            <div class="show_form_group">
-                                <!-- title -->
-                                <div class="show_form_group_title">
-                                    <span>Attendance txt File</span>
-                                    <span class="requirment">*</span>
-
-                                    
+                            <!-- hide -->
+                            <div class="hide_form_group">
+                                <div class="hide_form_group_search">
+                                    <input class="hide_form_group_search_input" type="text">
                                 </div>
 
-                                <!-- input box -->
-                                <input type="file" class="form_group_label form_group_label_device form_group_label_input" placeholder="Enter No.Of Rows">
+                                <div class="hide_form_group_search_list">
+                                    <ul>
+                                        <li class="">Yes</li>
+                                        <li class="">text File</li>
+                                       
+                                    </ul>
+                                </div>
                             </div>
                         </div>
 
-
-                        <div class="form_group_label_button form_group_label_button_device">
-                            <span><i class="fa-solid fa-cloud-arrow-up"></i></span>
-                            <span>Upload</span>
+                        <div class="form_group_label_button form_group_label_button_push">
+                            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <span>Search</span>
                         </div>
                     </div>
                 </div>
 
+                <div class="profile_form_text">No data is available! Please fillup all the required fields above and Click on <b>"Search"</b> button.</div>
+               
             </div>
         </div>
     </section>

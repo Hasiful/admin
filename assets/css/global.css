@@ -15,7 +15,7 @@
 
 :root{
     --primaryColor: #1f234a;
-    --secondColor: #2E3192;
+    --secondColor: #2e3192;
 }
 
 .mobile_nav {
@@ -74,6 +74,21 @@ svg {
 .form_group_label_device {
     padding: 4px 5px;
 }
-.form_group_label_button_device{
-    width: 100px;
+.form_group_label_button_device {
+    width: 157px;
+}
+
+.form_group_label_input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0px 10px;
+}
+
+.form_group_label_input_div{
+    padding: 0px !important;
+}
+
+.form_group_timedeleteconfig {
+    width: 100% !important;
 }

@@ -23,11 +23,12 @@
     justify-content: space-between;
 }
 
-.header_left{
-    display: flex;
+.header_left {
+
     align-items: center;
     justify-content: center;
     gap: 50px;
+    display: none;
 }
 
 .header_logo{}
@@ -93,7 +94,7 @@
  */
 
  .admin_sidebar {
-    width: 260px;
+    width: 240px;
     height: calc(100vh - 55px);
     overflow-y: scroll;
     background-color: var(--secondColor);
@@ -183,7 +184,7 @@
 }
 
 li.toggleItem.active {
-    background: #1F234A;
+    background: #1f234a;
     border-radius: 5px;
 }
 
@@ -224,15 +225,15 @@ li.toggleItem.active {
     content: "";
     position: absolute;
     height: 90%;
-    width: 1.5px;
-    background-color: var(--secondColor);
+    width: 1px;
+    background-color: #676bff;
     top: 50%;
     transform: translateY(-50%);
     left: 10px;
 }
 .active .sidenav_sub_menu {
     display: block;
-    background: rgb(12 16 58 / 70%);
+    background: #1c1d58;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     padding-top: 15px;
@@ -246,16 +247,18 @@ li.toggleItem.active {
 .sidenav_sub_menu li{
     position: relative;
 }
+
 .sidenav_sub_menu > li::after {
     content: "";
     position: absolute;
     width: 6px;
-    height: 1px;
-    background: var(--secondColor);
+    height: 2px;
+    background: #676bff;
     top: 10px;
     left: -13px;
 }
-.sidenav_sub_menu li a{
+
+.sidenav_sub_menu > li > a{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -274,6 +277,9 @@ li.toggleItem.active {
     margin-left: -13px;
 }
 
+.sidenav_sub_menu_sub li a{
+    color: #fff !important;
+}
 
 .sidenav_sub_menu_sub {
     padding: 20px 0px 20px 10px;
@@ -285,30 +291,32 @@ li.toggleItem.active {
     display: block;
 }
 
-.sidenav_sub_menu_sub::after{
+.sidenav_sub_menu_sub::after {
     content: "";
     position: absolute;
     height: 90%;
     width: 1.5px;
-    background-color: var(--secondColor);
+    background-color: #676bff;
     top: 50%;
     transform: translateY(-50%);
-    left: -1px;  
+    left: -1px;
 }
 
 .sidenav_sub_menu_sub li {
     color: #fff;
     font-size: 13px;
-    margin-bottom: 10px;
     position: relative;
+}
+.sidenav_sub_menu_sub li:not(:last-child){
+    margin-bottom: 30px;
 }
 
 .sidenav_sub_menu_sub li::after {
     content: "";
     position: absolute;
     width: 6px;
-    height: 1px;
-    background: var(--secondColor);
+    height: 2px;
+    background: #676bff;
     top: 10px;
     left: -11px;
 }
@@ -445,9 +453,108 @@ li.toggleItem.active {
 .payment_sms{
     width: 100%;
 }
-.admin_body_left_box{
+.admin_body_left_box {
     width: 100%;
-    height: 400px;
+    height: 490px;
     background-color: #fff;
     box-shadow: 0px 0px 15px rgb(0 0 0 / 20%);
 }
+
+.admin_body_right_bottom_info{
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 20%);
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.admin_body_right_bottom_info_wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    transition: all .3s;
+}
+
+.supprort_token_bottom_info{}
+
+.supprort_token_bottom_info_top{
+    border-right: 1px solid #dedede;
+}
+
+.token_info_title{
+    color: #4d52ed;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.token_info_button_inner{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.supprort_token_bottom_info_botttom{
+    margin-top: 40px;
+}
+.token_info_button{}
+
+.token_info_button a {
+    padding: 5px 25px;
+    border: 2px solid #fbca8a;
+    background-color: #ffac07;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+}
+.token_info_button_tel a{
+    background-color: #6457e8;
+    border: #6457e8;
+    border-radius: 4px;
+}
+.token_info_button2 a{
+    background-color: #25bc43;
+    border: 2px solid #51d46b;
+}
+
+.supprort_token_bottom_info_content{
+    margin-top: 15px;
+}
+.supprort_token_bottom_info_content span{
+    display: block;
+    font-size: 12px;
+}
+
+.info_bottom_image {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.info_bottom_image img{
+    display: block;
+    width: 100%;
+}
+
+.submit_token_bottom_info_top{
+    border: none !important;
+}
+.submit_token_bottom_info_bottom {
+    border: none !important;
+    margin-top: 50px;
+}
+
+.token_info_button_rgbColor a{
+    background: linear-gradient(225deg,#8d82fd 43%,#6457e8) !important;
+    box-shadow: 3px 3px 10px 0 rgb(0 0 0 / 16%);
+    border: none !important;
+    border-radius: 4px;
+}
+
+.admin_body_left_box2 {
+    height: 317px;
+    margin-top: 20px;
+}
+

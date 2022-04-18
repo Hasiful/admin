@@ -102,3 +102,145 @@ span.group_massage_list_leave {
     width: 100%;
     display: block;
 }
+
+.stuttu_table_btn_att{
+    background-color: #AF248A !important;
+}
+
+.hide_form_group_month {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.incrolment_table_header_blank{
+    overflow-x: scroll;
+}
+.incrolment_table_header_blank::-webkit-scrollbar{
+  
+}
+
+.form_group_hrtime{
+    width: 100% !important;
+}
+
+.Attendance_Preview_hr{
+    margin-bottom: 30px;
+}
+
+.Attendance_Preview_hr_wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.Attendance_Preview_hr_item{
+    border: 1px solid #ffbc78;
+    border-radius: 7px;
+}
+
+.Attendance_Preview_hr_item_title{
+    border-radius: 7px 7px 0 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0,0,0,.6);
+    font-weight: 600;
+    position: relative;
+    background-color: #ffbc78;
+}
+
+.Attendance_Preview_hr_item_body{
+    text-align: center;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Attendance_Preview_hr_item2{
+    border: 1px solid #5ecc7b;
+}
+.Attendance_Preview_hr_item3{
+    border: 1px solid #69bed9;
+}
+.Attendance_Preview_hr_item4{
+    border: 1px solid #ff9b9b;
+}
+.Attendance_Preview_hr_item5{
+    border: 1px solid #76ecec;
+}
+
+.Attendance_Preview_hr_item5 .Attendance_Preview_hr_item_title{
+    background-color: #76ecec !important;
+}
+.Attendance_Preview_hr_item4 .Attendance_Preview_hr_item_title{
+    background-color: #ff9b9b !important;
+}
+.Attendance_Preview_hr_item3 .Attendance_Preview_hr_item_title{
+    background-color: #69bed9 !important;
+}
+.Attendance_Preview_hr_item2 .Attendance_Preview_hr_item_title{
+    background-color: #5ecc7b !important;
+}
+
+.Attendance_Preview_hr_present{}
+
+.Attendance_Preview_hr_present_wrap{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+}
+
+.Attendance_Preview_hr_present_item{
+    position: relative;
+}
+
+.Attendance_Preview_hr_present_item::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    left: 0px;
+    top: 44px;
+    border-left: 1px dashed #dfd0ff;
+    height: 450px;
+}
+
+.Attendance_Preview_hr_present_item::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    right: 0px;
+    top: 44px;
+    border-left: 1px dashed #dfd0ff;
+    height: 450px;
+}
+
+.Attendance_Preview_hr_present_item_header{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 5px 0;
+    padding: 5px 0;
+    background-color: #5ecc7b;
+    text-align: center;
+}
+
+.Attendance_Preview_hr_present_item_body{
+   height: 450px;
+}
+
+.Attendance_Preview_hr_present_item_header2{
+    background-color: #69bed9 !important;
+}
+.Attendance_Preview_hr_present_item_header3{
+    background-color: #ff9b9b !important;
+}
+
+
+.form_group_reportrecord{
+    width: 70% !important;
+}
+
+.hide_form_group_search_month{
+    height: 250px;
+    overflow-y: scroll;
+}

@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/css/profile.css">
     <link rel="stylesheet" href="assets/css/Exelform.css">
     <link rel="stylesheet" href="assets/css/meritposition.css">
+    <link rel="stylesheet" href="assets/css/Enlistment2.css">
     <link rel="stylesheet" href="assets/css/classInfo.css">
     <!-- basic css -->
     <link rel="stylesheet" href="assets/css/basicInfo.css">
@@ -303,7 +304,7 @@
             <!--incrolment header -->
             <div class="incrollment_body_header">
                 <div class="incrollment_body_header_tite">
-                    <p>Upload Device Attendance File</p>
+                    <p> HR Attendance Preview </p>
                 </div>
 
                 <div class="help-icon_header">
@@ -315,50 +316,71 @@
 
 
             <div class="exelform_body_border">
-                <div class="profile_form profile_form_wrapper_push">
-                    <div class="profile_form_wrapper">
-                        <!-- item -->
-                        <div class="form_group form_group_profile">
-                            <!-- show -->
-                            <div class="show_form_group">
-                                <!-- title -->
-                                <div class="show_form_group_title">
-                                    <span>Select Attendance Date</span>
-                                    <span class="requirment">*</span>
-
-                                    
-                                </div>
-
-                                <!-- input box -->
-                                <input type="date" class="form_group_label form_group_label_input" placeholder="Enter No.Of Rows">
-                            </div>
-                        </div>
-
-                        <!-- item -->
-                        <div class="form_group form_group_profile">
-                            <!-- show -->
-                            <div class="show_form_group">
-                                <!-- title -->
-                                <div class="show_form_group_title">
-                                    <span>Attendance txt File</span>
-                                    <span class="requirment">*</span>
-
-                                    
-                                </div>
-
-                                <!-- input box -->
-                                <input type="file" class="form_group_label form_group_label_device form_group_label_input" placeholder="Enter No.Of Rows">
-                            </div>
-                        </div>
-
-
-                        <div class="form_group_label_button form_group_label_button_device">
-                            <span><i class="fa-solid fa-cloud-arrow-up"></i></span>
-                            <span>Upload</span>
-                        </div>
-                    </div>
+                
+                <!-- tab -->
+                <div class="basic_info_tab">
+                    <a href="">SERIAL WISE </a>
+                    <a href="">MONTH WISE </a>
+                    <a href="">DESIGNATION WISE </a>
+                  
                 </div>
 
+                <!-- Attendance_Preview_hr -->
+               <div class="Attendance_Preview_hr">
+                   <div class="Attendance_Preview_hr_wrapper">
+                    <!-- item -->
+                       <div class="Attendance_Preview_hr_item">
+                           <div class="Attendance_Preview_hr_item_title">Total HR</div>
+                           <div class="Attendance_Preview_hr_item_body">0</div>
+                       </div>
+                    <!-- item -->
+                       <div class="Attendance_Preview_hr_item Attendance_Preview_hr_item2">
+                           <div class="Attendance_Preview_hr_item_title">Present HR</div>
+                           <div class="Attendance_Preview_hr_item_body">0</div>
+                       </div>
+                    <!-- item -->
+                       <div class="Attendance_Preview_hr_item Attendance_Preview_hr_item3">
+                           <div class="Attendance_Preview_hr_item_title">Absent HR</div>
+                           <div class="Attendance_Preview_hr_item_body">0</div>
+                       </div>
+                    <!-- item -->
+                       <div class="Attendance_Preview_hr_item Attendance_Preview_hr_item4">
+                           <div class="Attendance_Preview_hr_item_title">Leave HR</div>
+                           <div class="Attendance_Preview_hr_item_body">0</div>
+                       </div>
+                    <!-- item -->
+                       <div class="Attendance_Preview_hr_item Attendance_Preview_hr_item5">
+                           <div class="Attendance_Preview_hr_item_title">Mapped HR</div>
+                           <div class="Attendance_Preview_hr_item_body">0</div>
+                       </div>
+                   </div>
+               </div>
+
+              <div class="Attendance_Preview_hr_present">
+                  <div class="Attendance_Preview_hr_present_wrap">
+                      <!-- item -->
+                      <div class="Attendance_Preview_hr_present_item">
+                          <div class="Attendance_Preview_hr_present_item_header">List of Present HR</div>
+                          <div class="Attendance_Preview_hr_present_item_body"></div>
+                      </div>
+
+                      <!-- item -->
+                      <div class="Attendance_Preview_hr_present_item">
+                          <div class="Attendance_Preview_hr_present_item_header Attendance_Preview_hr_present_item_header2">List of Absent HR</div>
+                          <div class="Attendance_Preview_hr_present_item_body"></div>
+                      </div>
+
+                      <!-- item -->
+                      <div class="Attendance_Preview_hr_present_item">
+                          <div class="Attendance_Preview_hr_present_item_header Attendance_Preview_hr_present_item_header3">List of Leave HR</div>
+                          <div class="Attendance_Preview_hr_present_item_body"></div>
+                      </div>
+                    
+                  </div>
+              </div>
+
+               
+               
             </div>
         </div>
     </section>
