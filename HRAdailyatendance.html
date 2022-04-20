@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="assets/css/profile.css">
     <link rel="stylesheet" href="assets/css/Exelform.css">
     <link rel="stylesheet" href="assets/css/meritposition.css">
+    <link rel="stylesheet" href="assets/css/Enlistment2.css">
+    <link rel="stylesheet" href="assets/css/classInfo.css">
     <!-- basic css -->
     <link rel="stylesheet" href="assets/css/basicInfo.css">
     <!-- global css -->
@@ -555,7 +557,7 @@
             <!--incrolment header -->
             <div class="incrollment_body_header">
                 <div class="incrollment_body_header_tite">
-                    <p>Student Summary Report</p>
+                    <p> Take HR Attendance </p>
                 </div>
 
                 <div class="help-icon_header">
@@ -567,30 +569,70 @@
 
 
             <div class="exelform_body_border">
+                
                 <!-- tab -->
                 <div class="basic_info_tab">
-                    <a href="">INFORMATION</a>
-                    <a href="">STUDENT ID</a>
-                    <a href="">PHOTO</a>
+                    <a href="">WITHOUT TIME </a>
+                    <a href="">WITH TIME </a>
+                  
                 </div>
 
-                <div class="profile_form profile_form_wrapper_push">
-                    <div class="profile_form_wrapper">
-                        
-                       
 
+
+
+                <div class="incroment_form_box merit_form_box">
+                    <div class="incroment_form_box_wrapper">
+                       
+                    <!-- form item-->
+                    <div class="form_group">
+                        <!-- show -->
+                        <div class="show_form_group">
+                            <!-- title -->
+                            <div class="show_form_group_title">
+                                <span>Category</span>
+                                <span class="requirment">*</span>
+                            </div>
+
+                            <!-- input box -->
+                            <div class="form_group_label">
+                                <div class="form_group_label_name">Select Category</div>
+                                <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
+                            </div>
+                        </div>
+
+                        <!-- hide -->
+                        <div class="hide_form_group">
+                            <div class="hide_form_group_search">
+                                <input class="hide_form_group_search_input" type="text">
+                            </div>
+
+                            <div class="hide_form_group_search_list">
+                                <ul>
+                                    <li class="">ADMIN</li>
+                                    <li class="">TEACHER</li>
+                                    <li class="">STAFF</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+               
+
+                        <!-- item -->
                         <div class="form_group">
                             <!-- show -->
                             <div class="show_form_group">
                                 <!-- title -->
                                 <div class="show_form_group_title">
-                                    <span>Academic Year</span>
+                                    <span>Shift</span>
                                     <span class="requirment">*</span>
                                 </div>
 
                                 <!-- input box -->
                                 <div class="form_group_label">
-                                    <div class="form_group_label_name">2022</div>
+                                    <div class="form_group_label_name">Select Shift</div>
                                     <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
                                 </div>
                             </div>
@@ -603,58 +645,44 @@
 
                                 <div class="hide_form_group_search_list">
                                     <ul>
-                                        <li class="">2022</li>
-                                        <li class="">2023</li>
+                                        <li class="">1st Shift</li>
+                                        <li class="">2nd Shift</li>  
+                                        
                                     </ul>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="form_group form_group_profile">
-                            <!-- show -->
+                    <!-- form item-->
+                          <!-- item -->
+                          <div class="form_group">
                             <div class="show_form_group">
                                 <!-- title -->
                                 <div class="show_form_group_title">
-                                    <span>Type</span>
+                                    <span>Date</span>
                                     <span class="requirment">*</span>
                                 </div>
-
+    
                                 <!-- input box -->
-                                <div class="form_group_label">
-                                    <div class="form_group_label_name">Select Type</div>
-                                    <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
-                                </div>
-                            </div>
-
-                            <!-- hide -->
-                            <div class="hide_form_group">
-                                <div class="hide_form_group_search">
-                                    <input class="hide_form_group_search_input" type="text">
-                                </div>
-
-                                <div class="hide_form_group_search_list">
-                                    <ul>
-                                        <li class="">Class Wise</li>
-                                        <li class="">Section Wise</li>
-
-                                    </ul>
-                                </div>
+                                <input type="date" class="form_group_label form_group_label_input" placeholder="Start/Time/right" value="10">
                             </div>
                         </div>
 
-                        <div class="form_group_label_button form_group_label_button_push">
+                        <!-- form item button -->
+                        <div class="form_group_label_button">
                             <span><i class="fa-solid fa-magnifying-glass"></i></span>
                             <span>Search</span>
                         </div>
+                    
                     </div>
                 </div>
-
+                <!-- body text -->
                 <div class="profile_form_text">No data is available! Please fillup all the required fields above and Click on <b>"Search"</b> button.</div>
 
                 <!-- table -->
                 <div class="incrolment_table">
                     <div class="incrolment_table_title profile_table_title">
-                        <span>Religion List (Class Wise)</span>
+                        <span>Student List</span>
                         <span>Total Found:2</span>
                     </div>
 
@@ -662,63 +690,43 @@
                         <table>
                             <thead>
                                 <tr>
-                                    <th>Class</th>
-                                    <th>Total Student</th>
-                                    <th>Islam</th>
-                                    <th>Hinduism</th>
-                                    <th>Buddhisim</th>
-                                    <th>Christianity</th>
-                                    <th>Others</th>
-                                     
+                                  
+                                    <th class="table_input_class1">Student Id
+                                        <input type="text" class="profile_table_thInput">
+                                    </th>
+                                    <th style="width: 100px;">Roll no <span>*</span>
+                                    
+                                        <input type="text" class="profile_table_thInput">
+                                    </th>
+                                    <th>Name <span>*</span>
+                                        
+                                        <input type="text" class="profile_table_thInput classInfo_table_thInput_Name">
+
+                                    </th>
+                                   
+                                    <th>Present Address</th>
+                                    <th>Absent Address</th>
+                                    <th> Leave </th>
+                                    <th>Mobile No</th>
+                                   
                                 </tr>
                             </thead>
 
                             <tbody>
+                                
                                 <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
-                                <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
-                                <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
-                                <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
+                                  
+                                    <td class="">2000122</td>
+                                    <td class="table_input1 table_input">1</td>
+                                    <td class="table_input2 table_input">A</td>
 
-                                <tr class="profile_table_result">
-                                   <td>Total</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td class="table_input3 table_input">01723507989</td>
+
+                       
+
                                 </tr>
                             </tbody>
                         </table>
@@ -739,7 +747,18 @@
                             </select>
                         </div>
                     </div>
+
+                    <!-- button -->
+                    <div class="stuttu_table_bottom_btn">
+                        <div class="stuttu_table_btn"><span><i class="fa-solid fa-cloud-arrow-down"></i></span> <span>Download Excel</span></div>
+                        <div class="stuttu_table_btn"><span><i class="fa-solid fa-cloud-arrow-down"></i></span> <span>Download PDF</span></div>
+                    </div>
                 </div>
+
+              
+
+               
+               
             </div>
         </div>
     </section>

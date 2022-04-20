@@ -87,7 +87,7 @@
     -->
 
 
-  <!-- 
+   <!-- 
     ===================================
         start dashboard sidebar 
     ===================================
@@ -555,7 +555,7 @@
             <!--incrolment header -->
             <div class="incrollment_body_header">
                 <div class="incrollment_body_header_tite">
-                    <p>Student Summary Report</p>
+                    <p>Migration With Merit Position</p>
                 </div>
 
                 <div class="help-icon_header">
@@ -567,30 +567,21 @@
 
 
             <div class="exelform_body_border">
-                <!-- tab -->
-                <div class="basic_info_tab">
-                    <a href="">INFORMATION</a>
-                    <a href="">STUDENT ID</a>
-                    <a href="">PHOTO</a>
-                </div>
-
-                <div class="profile_form profile_form_wrapper_push">
-                    <div class="profile_form_wrapper">
-                        
-                       
-
+                <div class="incroment_form_box merit_form_box">
+                    <div class="incroment_form_box_wrapper">
+                        <!-- form item-->
                         <div class="form_group">
                             <!-- show -->
                             <div class="show_form_group">
                                 <!-- title -->
                                 <div class="show_form_group_title">
-                                    <span>Academic Year</span>
+                                    <span>Section</span>
                                     <span class="requirment">*</span>
                                 </div>
 
                                 <!-- input box -->
                                 <div class="form_group_label">
-                                    <div class="form_group_label_name">2022</div>
+                                    <div class="form_group_label_name">One-s1t-Shift-A</div>
                                     <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
                                 </div>
                             </div>
@@ -603,25 +594,28 @@
 
                                 <div class="hide_form_group_search_list">
                                     <ul>
-                                        <li class="">2022</li>
-                                        <li class="">2023</li>
+                                        <li class="">One-1st-Shift-A</li>
+                                        <li class="">Two-2nd-Shift-A</li>
+                                        <li class="">Three-2nd-Shift-A</li>
+                                        <li class="">Four-2nd-Shift-A</li>
+                                        <li class="">Five-2nd-Shift-A</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="form_group form_group_profile">
+                        <!-- form item-->
+                        <div class="form_group">
                             <!-- show -->
                             <div class="show_form_group">
                                 <!-- title -->
                                 <div class="show_form_group_title">
-                                    <span>Type</span>
+                                    <span>Merit Position</span>
                                     <span class="requirment">*</span>
                                 </div>
 
                                 <!-- input box -->
                                 <div class="form_group_label">
-                                    <div class="form_group_label_name">Select Type</div>
+                                    <div class="form_group_label_name">Class Position</div>
                                     <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
                                 </div>
                             </div>
@@ -634,27 +628,62 @@
 
                                 <div class="hide_form_group_search_list">
                                     <ul>
-                                        <li class="">Class Wise</li>
-                                        <li class="">Section Wise</li>
+                                        <li class="">Class Position</li>
+                                        <li class="">Shift Position</li>
+                                        <li class="">Section Position</li>
+                                        <li class="">Group Position</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- form item-->
+                        <div class="form_group">
+                            <!-- show -->
+                            <div class="show_form_group">
+                                <!-- title -->
+                                <div class="show_form_group_title">
+                                    <span>Group</span>
+                                    <span class="requirment">*</span>
+                                </div>
 
+                                <!-- input box -->
+                                <div class="form_group_label">
+                                    <div class="form_group_label_name">1st Semester</div>
+                                    <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
+                                </div>
+                            </div>
+
+                            <!-- hide -->
+                            <div class="hide_form_group">
+                                <div class="hide_form_group_search">
+                                    <input class="hide_form_group_search_input" type="text">
+                                </div>
+
+                                <div class="hide_form_group_search_list">
+                                    <ul>
+                                        <li class="">1st Semester</li>
+                                        <li class="">2st Semester</li>
+                                        <li class="">ANNUAL</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="form_group_label_button form_group_label_button_push">
+                        <!-- form item button -->
+                        <div class="form_group_label_button">
                             <span><i class="fa-solid fa-magnifying-glass"></i></span>
                             <span>Search</span>
                         </div>
+                    
                     </div>
                 </div>
 
                 <div class="profile_form_text">No data is available! Please fillup all the required fields above and Click on <b>"Search"</b> button.</div>
 
-                <!-- table -->
                 <div class="incrolment_table">
                     <div class="incrolment_table_title profile_table_title">
-                        <span>Religion List (Class Wise)</span>
+                        <span>Student List</span>
                         <span>Total Found:2</span>
                     </div>
 
@@ -662,63 +691,38 @@
                         <table>
                             <thead>
                                 <tr>
-                                    <th>Class</th>
-                                    <th>Total Student</th>
-                                    <th>Islam</th>
-                                    <th>Hinduism</th>
-                                    <th>Buddhisim</th>
-                                    <th>Christianity</th>
-                                    <th>Others</th>
-                                     
+                                    <th class="checkbox_table"><input type="checkbox"></th>
+                                    <th style="width: 110px;">Student ID <span>*</span>
+                                    
+                                        <input type="text" class="profile_table_thInput">
+                                    </th>
+
+                                    <th>Name <span>*</span>
+                                        
+                                        <input type="text" class="profile_table_thInput profile_table_thInput_Name">
+
+                                    </th>
+
+                                    <th>Section</th>
+                                    <th>Gender</th>
+                                    <th>Previous Roll No</th>
+                                    <th>New Roll No</th>    
                                 </tr>
                             </thead>
 
                             <tbody>
                                 <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
-                                <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
-                                <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
-                                <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
+                                    <td class="checkbox_table"><input type="checkbox"></td>
+                                    <td class="table_input1 table_input">1</td>
+                                    <td class="table_input2 table_input">A</td>
 
-                                <tr class="profile_table_result">
-                                   <td>Total</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
+                                    <td class="table_input3 table_input">N/A</td>
+
+                                    <td class="table_input4 table_input">Man</td>
+
+                                    <td class="table_input5 table_input">1</td>
+                                    <td class="table_input6 table_input"> 2 </td>
+                                  
                                 </tr>
                             </tbody>
                         </table>

@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="assets/css/profile.css">
     <link rel="stylesheet" href="assets/css/Exelform.css">
     <link rel="stylesheet" href="assets/css/meritposition.css">
+    <link rel="stylesheet" href="assets/css/Enlistment2.css">
+    <link rel="stylesheet" href="assets/css/classInfo.css">
     <!-- basic css -->
     <link rel="stylesheet" href="assets/css/basicInfo.css">
     <!-- global css -->
@@ -555,7 +557,7 @@
             <!--incrolment header -->
             <div class="incrollment_body_header">
                 <div class="incrollment_body_header_tite">
-                    <p>Student Summary Report</p>
+                    <p> HR Attendance Preview </p>
                 </div>
 
                 <div class="help-icon_header">
@@ -567,179 +569,71 @@
 
 
             <div class="exelform_body_border">
+                
                 <!-- tab -->
                 <div class="basic_info_tab">
-                    <a href="">INFORMATION</a>
-                    <a href="">STUDENT ID</a>
-                    <a href="">PHOTO</a>
+                    <a href="">SERIAL WISE </a>
+                    <a href="">MONTH WISE </a>
+                    <a href="">DESIGNATION WISE </a>
+                  
                 </div>
 
-                <div class="profile_form profile_form_wrapper_push">
-                    <div class="profile_form_wrapper">
-                        
-                       
+                <!-- Attendance_Preview_hr -->
+               <div class="Attendance_Preview_hr">
+                   <div class="Attendance_Preview_hr_wrapper">
+                    <!-- item -->
+                       <div class="Attendance_Preview_hr_item">
+                           <div class="Attendance_Preview_hr_item_title">Total HR</div>
+                           <div class="Attendance_Preview_hr_item_body">0</div>
+                       </div>
+                    <!-- item -->
+                       <div class="Attendance_Preview_hr_item Attendance_Preview_hr_item2">
+                           <div class="Attendance_Preview_hr_item_title">Present HR</div>
+                           <div class="Attendance_Preview_hr_item_body">0</div>
+                       </div>
+                    <!-- item -->
+                       <div class="Attendance_Preview_hr_item Attendance_Preview_hr_item3">
+                           <div class="Attendance_Preview_hr_item_title">Absent HR</div>
+                           <div class="Attendance_Preview_hr_item_body">0</div>
+                       </div>
+                    <!-- item -->
+                       <div class="Attendance_Preview_hr_item Attendance_Preview_hr_item4">
+                           <div class="Attendance_Preview_hr_item_title">Leave HR</div>
+                           <div class="Attendance_Preview_hr_item_body">0</div>
+                       </div>
+                    <!-- item -->
+                       <div class="Attendance_Preview_hr_item Attendance_Preview_hr_item5">
+                           <div class="Attendance_Preview_hr_item_title">Mapped HR</div>
+                           <div class="Attendance_Preview_hr_item_body">0</div>
+                       </div>
+                   </div>
+               </div>
 
-                        <div class="form_group">
-                            <!-- show -->
-                            <div class="show_form_group">
-                                <!-- title -->
-                                <div class="show_form_group_title">
-                                    <span>Academic Year</span>
-                                    <span class="requirment">*</span>
-                                </div>
+              <div class="Attendance_Preview_hr_present">
+                  <div class="Attendance_Preview_hr_present_wrap">
+                      <!-- item -->
+                      <div class="Attendance_Preview_hr_present_item">
+                          <div class="Attendance_Preview_hr_present_item_header">List of Present HR</div>
+                          <div class="Attendance_Preview_hr_present_item_body"></div>
+                      </div>
 
-                                <!-- input box -->
-                                <div class="form_group_label">
-                                    <div class="form_group_label_name">2022</div>
-                                    <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
-                                </div>
-                            </div>
+                      <!-- item -->
+                      <div class="Attendance_Preview_hr_present_item">
+                          <div class="Attendance_Preview_hr_present_item_header Attendance_Preview_hr_present_item_header2">List of Absent HR</div>
+                          <div class="Attendance_Preview_hr_present_item_body"></div>
+                      </div>
 
-                            <!-- hide -->
-                            <div class="hide_form_group">
-                                <div class="hide_form_group_search">
-                                    <input class="hide_form_group_search_input" type="text">
-                                </div>
+                      <!-- item -->
+                      <div class="Attendance_Preview_hr_present_item">
+                          <div class="Attendance_Preview_hr_present_item_header Attendance_Preview_hr_present_item_header3">List of Leave HR</div>
+                          <div class="Attendance_Preview_hr_present_item_body"></div>
+                      </div>
+                    
+                  </div>
+              </div>
 
-                                <div class="hide_form_group_search_list">
-                                    <ul>
-                                        <li class="">2022</li>
-                                        <li class="">2023</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="form_group form_group_profile">
-                            <!-- show -->
-                            <div class="show_form_group">
-                                <!-- title -->
-                                <div class="show_form_group_title">
-                                    <span>Type</span>
-                                    <span class="requirment">*</span>
-                                </div>
-
-                                <!-- input box -->
-                                <div class="form_group_label">
-                                    <div class="form_group_label_name">Select Type</div>
-                                    <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
-                                </div>
-                            </div>
-
-                            <!-- hide -->
-                            <div class="hide_form_group">
-                                <div class="hide_form_group_search">
-                                    <input class="hide_form_group_search_input" type="text">
-                                </div>
-
-                                <div class="hide_form_group_search_list">
-                                    <ul>
-                                        <li class="">Class Wise</li>
-                                        <li class="">Section Wise</li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="form_group_label_button form_group_label_button_push">
-                            <span><i class="fa-solid fa-magnifying-glass"></i></span>
-                            <span>Search</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="profile_form_text">No data is available! Please fillup all the required fields above and Click on <b>"Search"</b> button.</div>
-
-                <!-- table -->
-                <div class="incrolment_table">
-                    <div class="incrolment_table_title profile_table_title">
-                        <span>Religion List (Class Wise)</span>
-                        <span>Total Found:2</span>
-                    </div>
-
-                    <div class="incrolment_table_header">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Class</th>
-                                    <th>Total Student</th>
-                                    <th>Islam</th>
-                                    <th>Hinduism</th>
-                                    <th>Buddhisim</th>
-                                    <th>Christianity</th>
-                                    <th>Others</th>
-                                     
-                                </tr>
-                            </thead>
-
-                            <tbody>
-                                <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
-                                <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
-                                <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
-                                <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
-
-                                <tr class="profile_table_result">
-                                   <td>Total</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-
-                    <div class="student_table_bottom">
-                        <a href=""><i class="fa-solid fa-angle-left"></i></a>
-                        <span class="">1</span>
-                        <a href=""><i class="fa-solid fa-angle-right"></i></a>
-                        
-                        <div class="student_table_bottom_count">
-                            <select name="" id="">
-                                <option value="">5</option>
-                                <option value="">10</option>
-                                <option value="">15</option>
-                                <option value="">20</option>
-                                <option value="">25</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
+               
+               
             </div>
         </div>
     </section>

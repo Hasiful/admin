@@ -18,9 +18,11 @@
     <!-- profile -->
     <link rel="stylesheet" href="assets/css/profile.css">
     <link rel="stylesheet" href="assets/css/Exelform.css">
-    <link rel="stylesheet" href="assets/css/meritposition.css">
     <!-- basic css -->
     <link rel="stylesheet" href="assets/css/basicInfo.css">
+    <!-- stuttus css -->
+    <link rel="stylesheet" href="assets/css/stutus.css">
+    <link rel="stylesheet" href="assets/css/classInfo.css">
     <!-- global css -->
     <link rel="stylesheet" href="assets/css/global.css">
     <!-- responsive css -->
@@ -555,7 +557,7 @@
             <!--incrolment header -->
             <div class="incrollment_body_header">
                 <div class="incrollment_body_header_tite">
-                    <p>Student Summary Report</p>
+                    <p>Class Related Information Update</p>
                 </div>
 
                 <div class="help-icon_header">
@@ -565,63 +567,27 @@
 
             <!-- exelform body -->
 
-
             <div class="exelform_body_border">
                 <!-- tab -->
-                <div class="basic_info_tab">
-                    <a href="">INFORMATION</a>
-                    <a href="">STUDENT ID</a>
-                    <a href="">PHOTO</a>
+                <div class="profile_form_table_tab">
+                    <span><i class="fa-solid fa-angle-right"></i></span>
+                    <span>To Disable</span>
                 </div>
 
-                <div class="profile_form profile_form_wrapper_push">
+                <div class="profile_form">
                     <div class="profile_form_wrapper">
-                        
-                       
-
-                        <div class="form_group">
-                            <!-- show -->
-                            <div class="show_form_group">
-                                <!-- title -->
-                                <div class="show_form_group_title">
-                                    <span>Academic Year</span>
-                                    <span class="requirment">*</span>
-                                </div>
-
-                                <!-- input box -->
-                                <div class="form_group_label">
-                                    <div class="form_group_label_name">2022</div>
-                                    <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
-                                </div>
-                            </div>
-
-                            <!-- hide -->
-                            <div class="hide_form_group">
-                                <div class="hide_form_group_search">
-                                    <input class="hide_form_group_search_input" type="text">
-                                </div>
-
-                                <div class="hide_form_group_search_list">
-                                    <ul>
-                                        <li class="">2022</li>
-                                        <li class="">2023</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
                         <div class="form_group form_group_profile">
                             <!-- show -->
                             <div class="show_form_group">
                                 <!-- title -->
                                 <div class="show_form_group_title">
-                                    <span>Type</span>
+                                    <span>Section</span>
                                     <span class="requirment">*</span>
                                 </div>
 
                                 <!-- input box -->
                                 <div class="form_group_label">
-                                    <div class="form_group_label_name">Select Type</div>
+                                    <div class="form_group_label_name">One-s1t-Shift-A</div>
                                     <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
                                 </div>
                             </div>
@@ -634,27 +600,26 @@
 
                                 <div class="hide_form_group_search_list">
                                     <ul>
-                                        <li class="">Class Wise</li>
-                                        <li class="">Section Wise</li>
-
+                                        <li class="">One-1st-Shift-A</li>
+                                        <li class="">Two-2nd-Shift-A</li>
+                                        <li class="">Three-2nd-Shift-A</li>
+                                        <li class="">Four-2nd-Shift-A</li>
+                                        <li class="">Five-2nd-Shift-A</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="form_group_label_button form_group_label_button_push">
+                        <div class="form_group_label_button">
                             <span><i class="fa-solid fa-magnifying-glass"></i></span>
                             <span>Search</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="profile_form_text">No data is available! Please fillup all the required fields above and Click on <b>"Search"</b> button.</div>
 
-                <!-- table -->
                 <div class="incrolment_table">
                     <div class="incrolment_table_title profile_table_title">
-                        <span>Religion List (Class Wise)</span>
+                        <span>Student List</span>
                         <span>Total Found:2</span>
                     </div>
 
@@ -662,63 +627,37 @@
                         <table>
                             <thead>
                                 <tr>
-                                    <th>Class</th>
-                                    <th>Total Student</th>
-                                    <th>Islam</th>
-                                    <th>Hinduism</th>
-                                    <th>Buddhisim</th>
-                                    <th>Christianity</th>
-                                    <th>Others</th>
-                                     
+                                    <th class="checkbox_table"><input type="checkbox"></th>
+                                    <th class="table_input_class1">Student Id
+                                        <input type="text" class="profile_table_thInput">
+                                    </th>
+                                    <th style="width: 100px;">Roll no <span>*</span>
+                                    
+                                        <input type="text" class="profile_table_thInput">
+                                    </th>
+                                    <th>Name <span>*</span>
+                                        
+                                        <input type="text" class="profile_table_thInput classInfo_table_thInput_Name">
+
+                                    </th>
+                                    <th>Gender</th>
+                                    <th>Mobile</th>
+                                   
                                 </tr>
                             </thead>
 
                             <tbody>
+                                
                                 <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
-                                <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
-                                <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
-                                <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
+                                    <td class="checkbox_table checkbox_table_class"><input type="checkbox"></td>
+                                    <td class="">2000122</td>
+                                    <td class="table_input1 table_input">1</td>
+                                    <td class="table_input2 table_input">A</td>
 
-                                <tr class="profile_table_result">
-                                   <td>Total</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
+                                    <td class="table_input3 table_input">Male</td>
+
+                                    <td class="table_input4 table_input">001200000000</td>
+
                                 </tr>
                             </tbody>
                         </table>
@@ -740,6 +679,84 @@
                         </div>
                     </div>
                 </div>
+
+
+                  <!-- tab -->
+                  <div class="profile_form_table_tab profile_form_table_tab2">
+                    <span><i class="fa-solid fa-angle-right"></i></span>
+                    <span>To Enable</span>
+                </div>
+
+                <!-- bottom table -->
+
+                <div class="incrolment_table">
+                    <div class="incrolment_table_title profile_table_title">
+                        <span>Student List</span>
+                        <span>Total Found:2</span>
+                    </div>
+
+                    <div class="incrolment_table_header">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="checkbox_table"><input type="checkbox"></th>
+                                    <th class="table_input_class1">Student Id
+                                        <input type="text" class="profile_table_thInput">
+                                    </th>
+                                    <th style="width: 100px;">Roll no <span>*</span>
+                                    
+                                        <input type="text" class="profile_table_thInput">
+                                    </th>
+                                    <th>Name <span>*</span>
+                                        
+                                        <input type="text" class="profile_table_thInput classInfo_table_thInput_Name">
+
+                                    </th>
+                                    <th>Class</th>
+                                    <th>Shift</th>
+                                    <th>Section <span>*</span>
+                                        
+                                        <input type="text" class="profile_table_thInput classInfo_table_thInput_Name">
+
+                                    </th>
+                                    <th>Gender</th>
+                                    <th>Mobile</th>
+                                   
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr class="profile_table"> 
+                                    <td colspan="100%">No Record</td>
+                                 </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="student_table_bottom">
+                        <a href=""><i class="fa-solid fa-angle-left"></i></a>
+                        <span class="">1</span>
+                        <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                        
+                        <div class="student_table_bottom_count">
+                            <select name="" id="">
+                                <option value="">5</option>
+                                <option value="">10</option>
+                                <option value="">15</option>
+                                <option value="">20</option>
+                                <option value="">25</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- bottom button -->
+                <div class="stuttu_table_bottom_btn">
+                    <div class="stuttu_table_btn"><span><i class="fa-solid fa-check"></i></span> <span>Enable</span></div>
+
+                    <div class="stuttu_table_btn stuttu_table_btnD"><span> <i class="fa-solid fa-trash"></i> </span> <span>Delete</span></div>
+                </div>
+
             </div>
         </div>
     </section>

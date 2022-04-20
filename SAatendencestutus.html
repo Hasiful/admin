@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="assets/css/profile.css">
     <link rel="stylesheet" href="assets/css/Exelform.css">
     <link rel="stylesheet" href="assets/css/meritposition.css">
+    <link rel="stylesheet" href="assets/css/Enlistment2.css">
+    <link rel="stylesheet" href="assets/css/classInfo.css">
     <!-- basic css -->
     <link rel="stylesheet" href="assets/css/basicInfo.css">
     <!-- global css -->
@@ -555,7 +557,7 @@
             <!--incrolment header -->
             <div class="incrollment_body_header">
                 <div class="incrollment_body_header_tite">
-                    <p>Student Summary Report</p>
+                    <p> Overall Attendance Information By Status Wise </p>
                 </div>
 
                 <div class="help-icon_header">
@@ -567,30 +569,68 @@
 
 
             <div class="exelform_body_border">
+                
                 <!-- tab -->
                 <div class="basic_info_tab">
-                    <a href="">INFORMATION</a>
-                    <a href="">STUDENT ID</a>
-                    <a href="">PHOTO</a>
+                    <a href="">Section Wise</a>
+                    <a href=""> CLASS WISE </a>
+                    <a href="">ACADEMIC YEAR INFO</a>
                 </div>
 
-                <div class="profile_form profile_form_wrapper_push">
-                    <div class="profile_form_wrapper">
-                        
+
+
+
+                <div class="incroment_form_box merit_form_box">
+                    <div class="incroment_form_box_wrapper">
                        
+                    <!-- form item-->
+                    <div class="form_group">
+                        <!-- show -->
+                        <div class="show_form_group">
+                            <!-- title -->
+                            <div class="show_form_group_title">
+                                <span>Section</span>
+                                <span class="requirment">*</span>
+                            </div>
+
+                            <!-- input box -->
+                            <div class="form_group_label">
+                                <div class="form_group_label_name">Chose</div>
+                                <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
+                            </div>
+                        </div>
+
+                        <!-- hide -->
+                        <div class="hide_form_group">
+                            <div class="hide_form_group_search">
+                                <input class="hide_form_group_search_input" type="text">
+                            </div>
+
+                            <div class="hide_form_group_search_list">
+                                <ul>
+                                    <li class="">One-1st-Shift-A</li>
+                                    <li class="">Two-2nd-Shift-A</li>
+                                    <li class="">Three-2nd-Shift-A</li>
+                                    <li class="">Four-2nd-Shift-A</li>
+                                    <li class="">Five-2nd-Shift-A</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
 
                         <div class="form_group">
                             <!-- show -->
                             <div class="show_form_group">
                                 <!-- title -->
                                 <div class="show_form_group_title">
-                                    <span>Academic Year</span>
+                                    <span>Year</span>
                                     <span class="requirment">*</span>
                                 </div>
 
                                 <!-- input box -->
                                 <div class="form_group_label">
-                                    <div class="form_group_label_name">2022</div>
+                                    <div class="form_group_label_name">Select Year</div>
                                     <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
                                 </div>
                             </div>
@@ -605,23 +645,26 @@
                                     <ul>
                                         <li class="">2022</li>
                                         <li class="">2023</li>
+                                        
+                                        
                                     </ul>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="form_group form_group_profile">
+                        <!-- item -->
+                        <div class="form_group">
                             <!-- show -->
                             <div class="show_form_group">
                                 <!-- title -->
                                 <div class="show_form_group_title">
-                                    <span>Type</span>
+                                    <span>Period</span>
                                     <span class="requirment">*</span>
                                 </div>
 
                                 <!-- input box -->
                                 <div class="form_group_label">
-                                    <div class="form_group_label_name">Select Type</div>
+                                    <div class="form_group_label_name">Select Period</div>
                                     <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
                                 </div>
                             </div>
@@ -634,27 +677,69 @@
 
                                 <div class="hide_form_group_search_list">
                                     <ul>
-                                        <li class="">Class Wise</li>
-                                        <li class="">Section Wise</li>
-
+                                        <li class="">1st Period</li>
+                                        <li class="">2nd Period</li>
+                                        <li class="">3rd Period</li>
+                                        <li class="">4th Period</li>
+                                        <li class="">5th Period</li>
+                                        <li class="">5th Period</li>
+                                        <li class="">7th Period</li>  
+                                        
                                     </ul>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="form_group_label_button form_group_label_button_push">
+                    <!-- form item-->
+                    <div class="form_group">
+                        <!-- show -->
+                        <div class="show_form_group">
+                            <!-- title -->
+                            <div class="show_form_group_title">
+                                <span>Attendance Status</span>
+                                <span class="requirment">*</span>
+                            </div>
+
+                            <!-- input box -->
+                            <div class="form_group_label">
+                                <div class="form_group_label_name">Select Attendance</div>
+                                <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
+                            </div>
+                        </div>
+
+                        <!-- hide -->
+                        <div class="hide_form_group hide_form_group_month">
+                            <div class="hide_form_group_search">
+                                <input class="hide_form_group_search_input" type="text">
+                            </div>
+
+                            <div class="hide_form_group_search_list">
+                                <ul>
+                                    <li class="">Present</li>
+                                    <li class="">Absent</li>
+                                    <li class="">Leave</li>
+                                 
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                        <!-- form item button -->
+                        <div class="form_group_label_button">
                             <span><i class="fa-solid fa-magnifying-glass"></i></span>
                             <span>Search</span>
                         </div>
+                    
                     </div>
                 </div>
-
+                <!-- body text -->
                 <div class="profile_form_text">No data is available! Please fillup all the required fields above and Click on <b>"Search"</b> button.</div>
 
                 <!-- table -->
+
                 <div class="incrolment_table">
                     <div class="incrolment_table_title profile_table_title">
-                        <span>Religion List (Class Wise)</span>
+                        <span>Student List</span>
                         <span>Total Found:2</span>
                     </div>
 
@@ -662,84 +747,589 @@
                         <table>
                             <thead>
                                 <tr>
-                                    <th>Class</th>
-                                    <th>Total Student</th>
-                                    <th>Islam</th>
-                                    <th>Hinduism</th>
-                                    <th>Buddhisim</th>
-                                    <th>Christianity</th>
-                                    <th>Others</th>
-                                     
+                                    <th>Day</th>
+                                    <th>January</th>
+                                    <th>February</th>
+                                    <th>March</th>
+                                    <th>April</th>
+                                    <th>May</th>
+                                    <th>June</th>
+                                    <th>July</th>
+                                    <th>August</th>
+                                    <th>September</th>
+                                    <th>October</th>
+                                    <th>November</th>
+                                    <th>December</th>
                                 </tr>
                             </thead>
 
                             <tbody>
+                                <!-- item -->
                                 <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
+                                    <td>1</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
                                 </tr>
-                                <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
-                                <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
-                                <tr class="profile_table">
-                                   <td>One</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                </tr>
+                                <!-- item -->
 
-                                <tr class="profile_table_result">
-                                   <td>Total</td>
-                                   <td>2</td>
-                                   <td>1</td>
-                                   <td>1</td>
-                                   <td>0</td>
-                                   <td>0</td>
-                                   <td>0</td>
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
                                 </tr>
+                                <!-- item -->
+                                
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>3</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>4</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>5</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>6</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>7</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>8</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>9</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>10</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>11</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>12</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>13</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>14</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>15</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>16</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>17</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>18</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>19</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>20</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>21</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>22</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>23</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>24</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>25</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>26</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>27</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>28</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>29</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>30</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                <!-- item -->
+                                <tr class="profile_table">
+                                    <td>31</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                                <!-- item -->
+                                
+
                             </tbody>
                         </table>
                     </div>
 
-                    <div class="student_table_bottom">
-                        <a href=""><i class="fa-solid fa-angle-left"></i></a>
-                        <span class="">1</span>
-                        <a href=""><i class="fa-solid fa-angle-right"></i></a>
-                        
-                        <div class="student_table_bottom_count">
-                            <select name="" id="">
-                                <option value="">5</option>
-                                <option value="">10</option>
-                                <option value="">15</option>
-                                <option value="">20</option>
-                                <option value="">25</option>
-                            </select>
-                        </div>
+                    <!-- button -->
+                    <div class="stuttu_table_bottom_btn">
+                        <div class="stuttu_table_btn"><span><i class="fa-solid fa-cloud-arrow-down"></i></span> <span>Download PDF</span></div>
                     </div>
                 </div>
+
+               
+               
             </div>
         </div>
     </section>
