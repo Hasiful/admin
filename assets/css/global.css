@@ -92,3 +92,10 @@ svg {
 .form_group_timedeleteconfig {
     width: 100% !important;
 }
+
+.startup_body_border_wrapper_left{
+    width: 100%;
+}
+.startup_body_border_wrapper_right{
+    width: 100%;
+}

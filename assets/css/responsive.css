@@ -146,6 +146,14 @@
         grid-template-columns: 40% auto 30%;
       
     }
+
+    .startup_body_border_wrapper_left{
+        width: 33%;
+    }
+
+    .startup_body_border_wrapper_right{
+        width: 65%;
+    }
 }
 
 /* 
