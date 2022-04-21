@@ -107,11 +107,15 @@
 .showSidebar.admin_sidebar{
     left:0px;
 }
-
- .admin_sidebar::-webkit-scrollbar{
-     width: 0px;
+ .admin_sidebar::-webkit-scrollbar-thumb{
+     background: #535599;
+     border-radius: 3px;
  }
 
+ .admin_sidebar::-webkit-scrollbar{
+     width: 12px;
+     position: absolute;
+ }
 
  .sidebar_top {
     background-color: rgb(12 16 58 / 70%);
