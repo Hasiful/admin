@@ -244,3 +244,48 @@ span.group_massage_list_leave {
     height: 250px;
     overflow-y: scroll;
 }
+
+.configPage_veiw_button{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.maskconfig_wrapper_left{
+    width: 100%;
+}
+.maskconfig_form_box{
+    border: unset;
+    padding: unset;
+}
+
+.maskconfig_form_box .incrolment_table{
+    margin-top: unset;
+}
+
+.table_input_config span{
+    background-color: red;
+}
+.table_input_config span:hover{
+    background-color: red;
+}
+
+.SEmark_form_config_box{
+    max-width: 610px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.table_input_marksheetConfig span{
+    background-color: #283593 !important;
+}
+
+.profile_table_thInputSEdate {
+    max-width: 515px;
+    width: 100% !important;
+}
+
+.Seremarks_group_subbox{
+    width: 100%;
+    margin-top: unset;
+}

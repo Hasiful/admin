@@ -170,7 +170,10 @@
     padding: 4px 10px;
     border-radius: 3px;
     height: 34px;
-    width: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 .form_group_label_button span{
     font-size: 13px;

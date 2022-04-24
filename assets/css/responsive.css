@@ -110,8 +110,8 @@
         width: 38%;
     }
     
-    .exelform_body_border_wrapper_right{
-        width: 54%;
+    .exelform_body_border_wrapper_right {
+        width: 60%;
     }
 
     .exelform_body_border_wrapper_left_defer{
@@ -153,6 +153,15 @@
 
     .startup_body_border_wrapper_right{
         width: 65%;
+    }
+
+    .maskconfig_wrapper_left{
+        width: 24%;
+    }
+
+    .Seremarks_group_subbox {
+        width: 48%;
+        margin-top: -80px;
     }
 }
 

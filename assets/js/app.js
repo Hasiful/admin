@@ -9,20 +9,7 @@ toggleBtn.addEventListener("click", function(){
 
 // menu collapse
 const toggleItem = document.getElementsByClassName("toggleItem");
-// [...toggleItem].forEach((children, index) => {
-//     children.dataset.id = index;
-// });
-// [...toggleItem].forEach((children, index)=>{
-//     children.addEventListener("click", function(e){
-        
-//         ;[...toggleItem].forEach(child=>{
-//             child.classList.remove("active")
-//             (child.dataset.id != index) && child.classList.remove("show_child");
-//         })
-//         children.classList.add("active")
-//         children.classList.toggle("show_child");
-//     })
-// })
+
 
 
 

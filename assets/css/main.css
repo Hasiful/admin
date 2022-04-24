@@ -9,7 +9,7 @@
     position: fixed;
     top: 0px;
     left: 0px;
-    z-index: 999;
+    z-index: 9999;
     width: 100%;
 }
 
@@ -102,7 +102,7 @@
     left: -100%;
     top: 55px;
     transition: all .3s;
-    z-index: 999;
+    z-index: 9999;
 }
 .showSidebar.admin_sidebar{
     left:0px;
@@ -584,3 +584,6 @@ li.toggleItemSub.activeList a span{
     margin-top: 20px;
 }
 
+.basic_info_tab a{
+    text-transform: uppercase;
+}
