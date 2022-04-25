@@ -163,6 +163,25 @@
         width: 48%;
         margin-top: -80px;
     }
+
+    .profile_form_wrapper {
+        flex-direction: row;
+    }
+
+    .se_table_wrapper{
+        flex-direction: row;
+    }
+
+    .se_table_wrapper_left{
+        width: 60%;
+    }
+    
+    .se_table_wrapper_right{
+        width: 40%;
+        font-size: 13px;
+        color: black;
+        font-weight: 500;
+    }
 }
 
 /* 

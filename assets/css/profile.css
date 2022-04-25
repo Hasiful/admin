@@ -15,7 +15,9 @@
     display: flex;
     align-items: flex-end;
     gap: 20px;
+    flex-direction: column;
 }
+
 .profile_form_text{
     color: #5559ec;
     text-align: center;

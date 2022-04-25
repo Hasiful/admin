@@ -143,6 +143,9 @@
     border: none;
 }
 
+.form_group_label_button{
+    cursor: pointer;
+}
 
 .sidebar_search {
     padding-left: 10px;

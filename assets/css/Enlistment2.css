@@ -289,3 +289,40 @@ span.group_massage_list_leave {
     width: 100%;
     margin-top: unset;
 }
+
+.se_table_wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.se_table_wrapper_left{
+    width: 100%;
+}
+
+.se_table_wrapper_right{
+    width: 100%;
+}
+
+.se_table_wrapper_right_title{
+    margin-top: 30px;
+}
+
+.se_table_wrapper_right_garade_list {
+    margin-top: 50px;
+}
+.se_table_wrapper_right_garade_list ul{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.se_table_wrapper_right_garade_list ul li{}
+.se_table_wrapper_right_garade_list ul li span{
+    font-size: 13px;
+    color: black;
+}
