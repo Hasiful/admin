@@ -182,6 +182,63 @@
         color: black;
         font-weight: 500;
     }
+
+    .create_classRytine_wrapper{
+        flex-direction: row;
+    }
+
+    .create_classRytine_left{
+        width: 49%;
+    }
+    
+    .create_classRytine_right{
+        width: 49%;
+    }
+
+    .ronline_class_form_wrapper{
+        flex-direction: row;
+    }
+
+    .ronline_class_form_left {
+        width: 64%;
+    }
+    .ronline_class_form_right{
+        width: 32%;
+    }
+
+    .form_group_Ronline {
+        width: 32%;
+    }
+
+    .sat_form_wrapper{
+        flex-direction: row;
+    }
+    
+    .sat_form_wrapper_left{
+        width: 50%;
+    }
+    .sat_form_wrapper_right{
+        width: 50%;
+    }
+
+    .sat_form_wrapper_left_map{
+        width: 32%;
+    }
+    .sat_form_wrapper_right_map{
+        width: 65%;
+    }
+
+    .sat_form_wrapper_left_ammountConfig{
+        width: 55%;
+    }
+    .sat_form_wrapper_right_ammountConfig{
+        width: 45%;
+    }
+
+    .Sta_form_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 }
 
 /* 

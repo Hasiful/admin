@@ -326,3 +326,126 @@ span.group_massage_list_leave {
     font-size: 13px;
     color: black;
 }
+
+.create_classRytine_wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.create_classRytine_left{
+    width: 100%;
+}
+
+.create_classRytine_right{
+    width: 100%;
+}
+
+.create_classRytine_left_box_icon {
+    height: 237px;
+    border: 5px solid #f5f5fc;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.create_classRytine_left_box_icon span{
+    font-size: 60px!important;
+    color: #fff!important;
+    line-height: normal!important;
+    display: inline-block;
+    width: 1.3em;
+    height: 1.3em;
+    background: #2f3292;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.create_classRytine_left_box_icon span i{
+    display: block;
+}
+
+.create_classRytine_left_text{
+    font-size: 14px;
+    color: #1c2d8c;
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.create_classroitne_right_form{
+    height: 237px;
+    border: 5px solid #f5f5fc;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.ronline_class_form_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.ronline_class_form_left{
+    width: 100%;
+}
+.ronline_class_form_right{
+    width: 100%;
+}
+.form_group_Ronline {
+    width: 100%;
+}
+
+
+.sat_form_wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 1060px;
+    margin: 0px auto;
+}
+
+.sat_form_wrapper_left,
+.sat_form_wrapper_left_map{
+    width: 100%;
+}
+.sat_form_wrapper_right,
+.sat_form_wrapper_right_map{
+    width: 100%;
+}
+
+.Sta_form_wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+    margin: 0px 10px;
+}
+
+.stafile_checkbox_wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 40px;
+    border-bottom: 1px solid rgb(128 128 128 / 50%);
+    padding-bottom: 15px;
+}
+
+.sta_previus_checkbox{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sta_previus_checkbox_text{
+    color: rgb(33, 33, 33);
+    font-size: 13px;
+    font-weight: 500;
+}

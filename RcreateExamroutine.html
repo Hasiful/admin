@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- material icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- incronment css -->
+    <link rel="stylesheet" href="assets/css/incrollmentForm.css">
+    <!-- profile -->
+    <link rel="stylesheet" href="assets/css/profile.css">
+    <link rel="stylesheet" href="assets/css/Exelform.css">
+    <link rel="stylesheet" href="assets/css/meritposition.css">
+    <link rel="stylesheet" href="assets/css/Enlistment2.css">
+    <link rel="stylesheet" href="assets/css/Enlistment.css">
+    <link rel="stylesheet" href="assets/css/classInfo.css">
+    <!-- basic css -->
+    <link rel="stylesheet" href="assets/css/basicInfo.css">
+    <!-- global css -->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+    <!-- 
+    ===================================
+        start  header section 
+    =================================== 
+    -->
+
+    <header class="header_section">
+        <div class="header_container">
+
+            <div class="header_wrapper">
+                <button id="toggleBtn" class="mobile_nav">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </button>
+                <!-- header left -->
+                <div class="header_left">
+                    <!-- header logo -->
+                    <div class="header_logo">
+                        <div class="header_logo_image">
+                            <img src="assets/image/edulogo.png" alt="">
+                        </div>
+                    </div>
+                    <!-- header nav -->
+                    <nav class="header_nav">
+                        <!-- item -->
+                        <div class="header_nav_item">
+                            <div class="header_nav_icon"><i class="fa-solid fa-house-chimney"></i></div>
+                            <div class="header_nav_text">Home</div>
+                        </div>
+                        <!-- item -->
+                        <div class="header_nav_item">
+                            <div class="header_nav_icon"><i class="fa-solid fa-gauge-high"></i></div>
+                            <div class="header_nav_text">Dashboard</div>
+                        </div>
+                        <!-- item -->
+                        <div class="header_nav_item">
+                            <div class="header_nav_icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                            <div class="header_nav_text">Token</div>
+                        </div>
+                    </nav>
+                </div>
+                <!-- header profile -->
+                <div class="header_profile">
+                    <img src="assets/image/profle.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 
+    ===================================
+        End  header section 
+    =================================== 
+    -->
+
+
+    <!-- 
+    ===================================
+        start dashboard sidebar 
+    ===================================
+    -->
+
+    <section class="admin_sidebar" id="sidebar">
+        <div class="sidebar_wrapper">
+            <!-- sidebar top -->
+            <div class="sidebar_top">
+                <!-- item -->
+                <div class="institute_id">
+                    <span>institute id</span>
+                    <span>15463</span>
+                </div>
+                <!-- item -->
+                <div class="institute_id curent_year">
+                    <span>Current year</span>
+                    <span>2022</span>
+                </div>
+            </div>
+            <!-- search -->
+            <div class="sidebar_search">
+                <div class="inner_search">
+                    <input type="text" class="input_control" placeholder="Search">
+                    <div class="input_icon"><i class="fa-solid fa-angle-down"></i></div>
+                </div>
+            </div>
+
+            <!-- sidebar_nav -->
+            <nav class="sidebar_nav">
+                <ul>
+                    <!-- item -->
+                    <li class="toggleItem">
+                        <a> <span class="sidebar_navitem_left"> student </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                            <i class="material-icons">dashboard</i>
+                         </a>
+                    
+                         <!-- sub menu -->
+                        <ul class="sidenav_sub_menu">
+                            <li class="toggleItemSub"><a><span>Registration</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>   
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Enrollment Form</a></li>
+                                    <li><a href="file:///F:/dhaka%20work/template/responsive%20template/office%20dashboard/incrollmentForm.html" target="blank">Exel Form</a></li>
+                                </ul>
+                            </li>
+                            <li class="toggleItemSub"><a><span>Update</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Profile</a></li>
+                                    <li><a href="">Basic Info</a></li>
+                                    <li><a href="">Class Info</a></li>
+                                    <li><a href="">Stutus</a></li>
+                                </ul>
+
+                            </li>
+                            <li class="toggleItemSub"><a><span>Migration</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> With Merit Position</a></li>
+                                    <li><a href=""> Without Merit Position</a></li>
+                                    <li><a href=""> Migration Pushback</a></li>
+                                </ul>
+                            
+                            </li>
+
+                            <p class="sidebar_listReport">REPORTS</p>
+
+                            <li class="toggleItemSub"><a><span>Summary</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Student List</a></li>
+                                </ul>
+
+                            </li>
+                            <li class="toggleItemSub"><a><span>Details</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Student List</a></li>
+                                    <li><a href="">Migrated List</a></li>
+                                    <li><a href="">At A Glance</a></li>
+                                    <li><a href=""> Overview</a></li>
+                                </ul>
+                            
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- item -->
+                    <li class="toggleItem"><a> <span class="sidebar_navitem_left"> HR Management </span>  <span class="sidebar_navitem_right"> <i    class="fa-solid fa-angle-down"></i>  
+                            <i class="material-icons">recent_actors</i></span> </a>
+                                
+                         <!-- sub menu -->
+                        <ul class="sidenav_sub_menu">
+                            <li class="toggleItemSub"><a><span>Registration</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>   
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Enrollment Form</a></li>
+                                    <li><a href="">Exel Form</a></li>
+                                </ul>
+                            </li>
+                            <li class="toggleItemSub"><a><span>Asign</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                                
+                              
+                               
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> Shift Assign</a></li>
+                                    <li><a href="">  Class Teacher</a></li>
+                                    <li><a href=""> Subject Teacher</a></li>
+                                
+                                </ul>
+
+                            </li>
+                            <li class="toggleItemSub"><a><span>Update</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> profile </a></li>
+                                    <li><a href=""> Basic Info </a></li>
+                                    <li><a href=""> Stutus </a></li>
+                                   
+                                </ul>
+                            
+                            </li>
+
+                            <p class="sidebar_listReport">REPORTS</p>
+
+                            <li class="toggleItemSub"><a><span> Details </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">HR List</a></li>
+                                </ul>
+
+                            </li>
+                        
+                        </ul>
+                        <!-- submenu end -->
+                    </li>
+
+
+                    <!-- item -->
+                    <li class="toggleItem"><a> <span class="sidebar_navitem_left"> student attetdens </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                            <i class="material-icons">check_circle_outline</i> </span> </a>
+
+                              
+
+                        <!-- sub menu -->
+                        <ul class="sidenav_sub_menu">
+                            <li class="toggleItemSub"><a><span>Settings</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>   
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">ID Maping</a></li>
+                                    <li><a href="">Time Config</a></li>
+                                    <li><a href="">Sms Template</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="toggleItemSub"><a><span>Device Data</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                                
+                              
+                               
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> Upload</a></li>
+                                    <li><a href="">  Process</a></li>
+                                    <li><a href="">  Auto Process</a></li>
+                                
+                                </ul>
+
+                            </li>
+                            <li class="toggleItemSub"><a><span>Take Attendance</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> Section Attendance </a></li>
+                                    <li><a href=""> Exam </a></li>
+                                    
+                                   
+                                </ul>
+                            
+                            </li>
+
+                            <li class="toggleItemSub"><a><span> Update </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> ID Mapping</a></li>
+                                    <li><a href=""> Time Config</a></li>
+                                    <li><a href="">  Section Attendance </a></li>
+                                    <li><a href="">  Exam Attendance</a></li>
+                                    
+                                   
+                                </ul>
+                            
+                            </li>
+
+                            <li class="toggleItemSub"><a><span> Leave </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> Leave Aplication</a></li>
+                                </ul>
+                            
+                            </li>
+
+                            <li class="toggleItemSub"><a><span> Delete </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> Section Attendance</a></li>
+                                </ul>
+                            
+                            </li>
+
+                            <p class="sidebar_listReport">REPORTS</p>
+
+                            <li class="toggleItemSub"><a><span> Blank Sheet </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Section Attendance</a></li>
+                                </ul> 
+
+                            </li>
+
+                            <li class="toggleItemSub"><a><span> Attendance </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Attendance Sheet</a></li>
+                                    <li><a href="">Attendance Stutus</a></li>
+                                    <li><a href="">Attendance Details</a></li>
+                                </ul> 
+
+                            </li>
+
+                            <li class="toggleItemSub"><a><span> Device </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Device Data</a></li>
+                                    <li><a href="">Device Map</a></li>
+                                  
+                                </ul> 
+
+                            </li>
+                        
+                        </ul>
+                        <!-- submenu end -->
+                    </li>
+
+
+
+                    <!-- item -->
+                    <li class="toggleItem"><a> <span class="sidebar_navitem_left">HR attetdens </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                        <i class="material-icons">check_circle_outline</i> </span> </a>
+                    
+                        <!-- sub menu -->
+                        <ul class="sidenav_sub_menu">
+                            <li class="toggleItemSub"><a><span>Settings</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>   
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">ID Maping</a></li>
+                                    <li><a href="">Time Config</a></li>
+                                    <li><a href="">Time Process</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="toggleItemSub"><a><span>Device Data</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                                
+                              
+                               
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> Upload</a></li>
+                                    <li><a href="">  Process</a></li>
+                                    <li><a href="">  Auto Process</a></li>
+                                
+                                </ul>
+
+                            </li>
+                            <li class="toggleItemSub"><a><span>Take Attendance</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> Daily Attendance </a></li>
+                                </ul>
+                            
+                            </li>
+
+                            <li class="toggleItemSub"><a><span> Update </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> ID Mapping</a></li>
+                                    <li><a href=""> Time Config</a></li>
+                                    <li><a href="">  Time Process </a></li>
+                                    <li><a href="">  Daily Attendance</a></li>
+                                    
+                                   
+                                </ul>
+                            
+                            </li>
+
+                            <li class="toggleItemSub"><a><span> Leave </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> Leave Aplication</a></li>
+                                </ul>
+                            
+                            </li>
+
+                            <li class="toggleItemSub"><a><span> Delete </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> Daily Attendance</a></li>
+                                    <li><a href="">Time Config</a></li>
+                                </ul>
+                            
+                            </li>
+
+                            <p class="sidebar_listReport">REPORTS</p>
+
+                            <li class="toggleItemSub"><a><span> Blank Sheet </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+
+                                    <li><a href=""> Attendance Preview</a></li>
+                                    <li><a href="">Attendance Status</a></li>
+                                    <li><a href=""> Attendance Record</a></li>
+                                    <li><a href="">Leave Info</a></li>
+                                    <li><a href="">Time Schedule</a></li>
+                                </ul> 
+
+                            </li>
+
+
+                            <li class="toggleItemSub"><a><span> Device </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Device Data</a></li>
+                                    <li><a href="">Device Map</a></li>
+                                  
+                                </ul> 
+
+                            </li>
+                        
+                        </ul>
+                        <!-- submenu end -->
+
+                 </li>
+
+
+                <!-- item -->
+                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> Semester Exam </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                    <i class="material-icons">receipt</i></span> </a>
+                
+                      <!-- sub menu -->
+                      <ul class="sidenav_sub_menu">
+                        <li class="toggleItemSub"><a><span>Settings</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>   
+                            <ul class="sidenav_sub_menu_sub">
+                                <li><a href="">StartUp</a></li>
+                                <li><a href="">Mark Config</a></li>
+                                <li><a href="">Mark Sheet Config</a></li>
+                                <li><a href="">Remarks Config</a></li>
+                                <li><a href="">Date Confi</a></li>
+                                
+                            </ul>
+                        </li>
+
+                        <li class="toggleItemSub"><a><span>Mark Input</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                          
+                           
+                            <ul class="sidenav_sub_menu_sub">
+                                <li><a href=""> Section Wise </a></li>
+                                <li><a href=""> Subject Wise</a></li>
+                           
+                            
+                            </ul>
+
+                        </li>
+                        <li class="toggleItemSub"><a><span>Mark Update</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                        
+                            <ul class="sidenav_sub_menu_sub">
+                                <li><a href=""> Section Wise </a></li>
+                                <li><a href=""> Subject Wise</a></li>
+                            </ul>
+                        
+                        </li>
+
+                        <li class="toggleItemSub"><a><span>Mark Delete</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                        
+                            <ul class="sidenav_sub_menu_sub">
+                                <li><a href=""> Section Wise </a></li>
+                            </ul>
+                        
+                        </li>
+
+                        <li class="toggleItemSub"><a><span>Mark Process</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                        
+                            <ul class="sidenav_sub_menu_sub">
+                                <li><a href=""> Class Wise </a></li>
+                            </ul>
+                        
+                        </li>
+
+                        <li class="toggleItemSub"><a><span> Result Process </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                        
+                            <ul class="sidenav_sub_menu_sub">
+                                <li><a href="">General Exam</a></li>
+                                <li><a href="">Grand Final</a></li>
+                                <li><a href="">Merit Position</a></li>
+                                <li><a href="">Remarks Set</a></li>
+                                <li><a href="">Attendance Count</a></li>
+                            </ul>
+                        
+                        </li>
+
+                        <p class="sidebar_listReport">REPORTS</p>
+
+                        <li class="toggleItemSub"><a><span> Summury </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                        
+                            <ul class="sidenav_sub_menu_sub">
+                                <li><a href=""> Unassigned Marks</a></li>
+                                <li><a href=""> Result Info</a></li>
+                                <li><a href=""> Grading Info</a></li>
+                                <li><a href=""> Pass-Fail Info</a></li>
+                            </ul> 
+
+                        </li>
+
+
+                        <li class="toggleItemSub"><a><span> Details </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                        
+                            <ul class="sidenav_sub_menu_sub">
+                                <li><a href="">Result</a></li>
+                                <li><a href="">Merit List</a></li>
+                                <li><a href="">Fail List</a></li>
+                                <li><a href="">Mark Sheet</a></li>
+                            </ul> 
+
+                        </li>
+
+                        <li class="toggleItemSub"><a><span> Tabulation Sheet </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                        
+                            <ul class="sidenav_sub_menu_sub">
+                                 <li><a href="">General Exam</a></li>
+                                 <li><a href="">Grand Final</a></li>
+                            </ul> 
+
+                        </li>
+
+                        <li class="toggleItemSub"><a><span> Blank Sheet </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                        
+                            <ul class="sidenav_sub_menu_sub">
+                                <li><a href="">Mark Input</a></li>
+                                <li><a href="">Exam Attendance</a></li>
+                            </ul> 
+
+                        </li>
+                    
+                    </ul>
+                    <!-- submenu end -->
+
+                </li>
+
+
+                <!-- item -->
+                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> Class Test </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                    <i class="material-icons">assignment</i> </span> </a>
+                
+                        <!-- sub menu -->
+                        <ul class="sidenav_sub_menu">
+                        <li class="toggleItemSub"><a><span>Settings</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>   
+                            <ul class="sidenav_sub_menu_sub">
+                                <li><a href="">Create</a></li>
+                                <li><a href="">Assign</a></li>
+                               
+                                
+                            </ul>
+                        </li>
+
+                        <li class="toggleItemSub"><a><span>Mark Input</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                            
+                            
+                            <ul class="sidenav_sub_menu_sub">
+                                <li><a href=""> Section Wise </a></li>
+                              
+                            
+                            
+                            </ul>
+
+                        </li>
+                        <li class="toggleItemSub"><a><span>Mark Update</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                        
+                            <ul class="sidenav_sub_menu_sub">
+                                <li><a href=""> Section Wise </a></li>
+                               
+                            </ul>
+                        
+                        </li>
+
+                        <li class="toggleItemSub"><a><span>Mark Delete</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                        
+                            <ul class="sidenav_sub_menu_sub">
+                                <li><a href=""> Section Wise </a></li>
+                        
+                            </ul>
+                        
+                        </li>
+
+
+                        <p class="sidebar_listReport">REPORTS</p>
+
+                        <li class="toggleItemSub"><a><span>Mark List</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                        
+                            <ul class="sidenav_sub_menu_sub">
+                                <li><a href=""> Section Wise </a></li>
+                                <li><a href=""> Subject Wise </a></li>
+                            </ul>
+                        
+                        </li>
+
+
+                        <li class="toggleItemSub"><a><span> Mark Sheet </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                        
+                            <ul class="sidenav_sub_menu_sub">
+                                <li><a href="">Section Wise</a></li>
+                            </ul> 
+
+                        </li>
+                    
+                    </ul>
+                    <!-- submenu end -->
+
+                    
+                </li>
+
+
+
+                <!-- item -->
+                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> Routine </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                    <i class="material-icons">date_range</i> </span> </a>
+                
+                        <!-- sub menu -->
+                        <ul class="sidenav_sub_menu">
+                            <li class="toggleItemSub"><a><span>Settings</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>   
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Class Routine</a></li>
+                                    <li><a href="">Exam Routine</a></li>
+                                   
+                                    
+                                </ul>
+                            </li>
+    
+                            <li class="toggleItemSub"><a><span>Create</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                                
+                                
+                                
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Class Routine</a></li>
+                                    <li><a href="">Exam Routine</a></li>
+                                    <li><a href="">Online Exam Routine</a></li>
+                                </ul>
+    
+                            </li>
+
+                            <p class="sidebar_listReport">REPORTS</p>
+    
+                            <li class="toggleItemSub"><a><span>Student</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Class Routine</a></li>
+                                    <li><a href="">Exam Routine</a></li>
+                                </ul>
+                            
+                            </li>
+    
+    
+                            <li class="toggleItemSub"><a><span> HR </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Daily Routine</a></li>
+                                </ul> 
+    
+                            </li>
+                        
+                        </ul>
+                        <!-- submenu end -->
+                </li>
+
+
+                <!-- item -->
+                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> student Acounts </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                    <i class="material-icons">monetization_on</i> </span> </a>
+                
+                        <!-- sub menu -->
+                        <ul class="sidenav_sub_menu">
+                            <li class="toggleItemSub"><a><span>Settings</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>   
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> StartUp</a></li>
+                                    <li><a href=""> Mapping</a></li>
+                                    <li><a href=""> Amount Config</a></li>
+                                    <li><a href=""> Date Config</a></li>
+                                    <li><a href=""> Waiver Config</a></li>
+                                    <li><a href=""> Fee Remove</a></li>
+                                    <li><a href=""> Fee Sub Head Remove</a></li>
+                                   
+                                    
+                                </ul>
+                            </li>
+    
+                            <li class="toggleItemSub"><a><span>Payslip Create</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                                
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Specific Fee</a></li>
+                                    <li><a href="">All Fee</a></li>
+                                </ul>
+    
+                            </li>
+
+                            <li class="toggleItemSub"><a><span>Fee Collect</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                                
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Payslip Collection</a></li>
+                                    <li><a href="">Quick Collection</a></li>
+                                    <li><a href=""> DFPS Collection</a></li>
+                                </ul>
+    
+                            </li>
+
+                            <li class="toggleItemSub"><a><span>Delete</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                                
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Invoice</a></li>
+                                </ul>
+    
+                            </li>
+
+                            <p class="sidebar_listReport">REPORTS</p>
+    
+                            <li class="toggleItemSub"><a><span>Summury</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Payment Ratio</a></li>
+                                    <li><a href="">Fee Head Collection</a></li>
+                                </ul>
+                            
+                            </li>
+    
+    
+                            <li class="toggleItemSub"><a><span> Details </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Payment Info</a></li>
+                                    <li><a href="">Paid Info</a></li>
+                                    <li><a href="">Unpaid Info</a></li>
+                                    <li><a href="">Fee Head Payment</a></li>
+                                    <li><a href="">Fee Head Due</a></li>
+                                    <li><a href="">Paid Invoice</a></li>
+                                    <li><a href="">Unpaid Payslip</a></li>
+                                    <li><a href="">Waiver Details</a></li>
+                                    <li><a href="">Probable Income</a></li>
+                                </ul> 
+    
+                            </li>
+
+                            <li class="toggleItemSub"><a><span> DFS </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                            </li>
+                        
+                        </ul>
+                        <!-- submenu end -->
+
+                </li>
+
+
+                <!-- item -->
+                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> payroll </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                    <i class="material-icons">payment</i></span> </a>
+                
+                        <!-- sub menu -->
+                        <ul class="sidenav_sub_menu">
+                            <li class="toggleItemSub"><a><span>Settings</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>   
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> StartUp</a></li>
+                                    <li><a href=""> payroll Mapping </a></li>
+                                    <li><a href=""> payroll Mapping</a></li>
+                                </ul>
+                            </li>
+    
+                            <li class="toggleItemSub"><a><span>Create</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                                
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Salary Slip</a></li>
+                                </ul>
+    
+                            </li>
+
+                            <li class="toggleItemSub"><a><span>Payment</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                                
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Salary</a></li>
+                                    <li><a href=""> Due </a></li>
+                                    <li><a href=""> Advance</a></li>
+                                </ul>
+    
+                            </li>
+
+                            <li class="toggleItemSub"><a><span>Payment Return</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                                
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Advance Payment</a></li>
+                                </ul>
+    
+                            </li>
+
+                            <p class="sidebar_listReport">REPORTS</p>
+
+    
+                            <li class="toggleItemSub"><a><span> Details </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> Salary Statements</a></li>
+                                    <li><a href="">Payment Info</a></li>
+                                    <li><a href="">Single Staff</a></li>
+                                </ul> 
+    
+                            </li>
+                        
+                        </ul>
+                        <!-- submenu end -->
+                </li>
+
+
+                <!-- item -->
+                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> inventory </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                    <i class="material-icons">store</i></span> </a>
+                
+                        <!-- sub menu -->
+                        <ul class="sidenav_sub_menu">
+                            <li class="toggleItemSub"><a><span>Settings</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>   
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> Create</a></li>
+                                    <li><a href=""> Supplier Info  </a></li>
+                                    <li><a href=""> Mapping</a></li>
+                                </ul>
+                            </li>
+    
+                            <li class="toggleItemSub"><a><span>Transaction</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                                
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">purchase</a></li>
+                                    <li><a href="">Sales</a></li>
+                                    <li><a href="">Collect Due</a></li>
+                                    <li><a href="">Pay Due</a></li>
+                                </ul>
+    
+                            </li>
+
+                            <li class="toggleItemSub"><a><span>Delete</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                                
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">purchase Invoice</a></li>
+                                    <li><a href=""> Sales Invoice</a></li>
+                                </ul>
+    
+                            </li>
+
+                            <p class="sidebar_listReport">REPORTS</p>
+
+    
+                            <li class="toggleItemSub"><a><span> Summary </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Purchase</a></li>
+                                    <li><a href="">Sales</a></li>
+                                    <li><a href="">Item</a></li>
+                                    <li><a href="">Supplier Payment</a></li>
+                                    <li><a href="">Stock List</a></li>
+                                </ul> 
+    
+                            </li>
+
+                            <li class="toggleItemSub"><a><span> Details </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Purchase</a></li>
+                                    <li><a href="">Sales</a></li>
+                                    <li><a href="">Supplier Payment</a></li>
+                                    <li><a href="">Student Due</a></li>
+                                </ul> 
+                            </li>
+                        
+                        </ul>
+                        <!-- submenu end -->
+
+                </li>
+
+
+
+                <!-- item -->
+                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> general Acounts</span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                    <i class="material-icons">local_atm</i> </span> </a>
+                
+                        <!-- sub menu -->
+                        <ul class="sidenav_sub_menu">
+                            <li class="toggleItemSub"><a><span>Settings</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>   
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> Create Ladger</a></li>
+                                    <li><a href=""> Create Fund  </a></li>
+                                </ul>
+                            </li>
+    
+                            <li class="toggleItemSub"><a><span>Voucher Entry</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                                
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Payment</a></li>
+                                    <li><a href="">Receipt</a></li>
+                                    <li><a href="">Contra</a></li>
+                                    <li><a href="">Juornal</a></li>
+                                    <li><a href="">Fund Transfer</a></li>
+                                </ul>
+    
+                            </li>
+
+                            <li class="toggleItemSub"><a><span>Delete</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                                
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> Voucher </a></li>
+                                </ul>
+    
+                            </li>
+
+                            <p class="sidebar_listReport">REPORTS</p>
+
+    
+                            <li class="toggleItemSub"><a><span> Account Overview </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    
+                                    <li><a href="">Balance Sheet</a></li>
+                                    <li><a href="">Trial Balance</a></li>
+                                    <li><a href="">Income Statement</a></li>
+                                    <li><a href="">Cash Summary</a></li>
+                                    <li><a href="">Flow Statement</a></li>
+                                    <li><a href="">Accounts Book</a></li>
+                                    <li><a href="">Chart of Accounts</a></li>
+                                </ul> 
+    
+                            </li>
+
+                            <li class="toggleItemSub"><a><span> Transaction Overview </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Voucher Wise</a></li>
+                                    <li><a href="">User Wise</a></li>
+                                    <li><a href="">Ledger Wise</a></li>
+                                    <li><a href="">Account Journal</a></li>
+                                    <li><a href="">Fund Wise</a></li>
+                                    <li><a href="">Fund Tran. Summary</a></li>
+                                    <li><a href="">Fund Tran. Monthly</a></li>
+                                </ul> 
+                            </li>
+                        
+                        </ul>
+                        <!-- submenu end -->
+
+
+                </li>
+
+
+                <!-- item -->
+                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> layout </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                    <i class="material-icons">view_compact</i> </span> </a>
+                
+                        <!-- sub menu -->
+                        <ul class="sidenav_sub_menu">
+                            <li class="toggleItemSub"><a><span>Settings</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>   
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> Template Format</a></li>
+                                    <li><a href=""> Admit Card Instruction  </a></li>
+                                </ul>
+                            </li>
+    
+                            <li class="toggleItemSub"><a><span>Download</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                                
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Id Card</a></li>
+                                    <li><a href="">Tag Download</a></li>
+                                    <li><a href="">Exam Essentials</a></li>
+                                    <li><a href="">Testimonial</a></li>
+                                    <li><a href="">TC</a></li>
+                                </ul>
+    
+                            </li>
+
+                        
+                        </ul>
+                        <!-- submenu end -->
+                </li>
+
+
+                <!-- item -->
+                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> Messaging </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                    <i class="material-icons">contact_mail</i> </span> </a>
+                
+                        <!-- sub menu -->
+                        <ul class="sidenav_sub_menu">
+                            <li class="toggleItemSub"><a><span>Create</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>   
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> SMS Template</a></li>
+                                    <li><a href=""> Phone Book  </a></li>
+                                </ul>
+                            </li>
+    
+                            <li class="toggleItemSub"><a><span>Send</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                                
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">Person Wise</a></li>
+                                    <li><a href="">Institute Wise</a></li>
+                                    <li><a href="">Notification Wise</a></li>
+                                </ul>
+    
+                            </li>
+
+                            <p class="sidebar_listReport">REPORTS</p>
+
+    
+                            <li class="toggleItemSub"><a><span> Summury </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    
+                                    <li><a href="">Sending SMS</a></li>
+                                    <li><a href="">Receiving SMS</a></li>
+                                </ul> 
+    
+                            </li>
+
+                            <li class="toggleItemSub"><a><span> Details </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href="">To Guardian</a></li>
+                                    <li><a href="">To HR</a></li>
+                                    <li><a href="">To Anyone</a></li>
+                                </ul> 
+                            </li>
+                        
+                        </ul>
+                        <!-- submenu end -->
+                </li>
+
+                <!-- item -->
+                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> Core Settings </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                    <i class="material-icons">settings</i> </span> </a>
+                
+                        <!-- sub menu -->
+                        <ul class="sidenav_sub_menu">
+                        <li class="toggleItemSub"><a><span>Institute Settings</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>   
+                            <ul class="sidenav_sub_menu_sub">
+                                <li><a href=""> Basic Config</a></li>
+                                <li><a href=""> StartUp  </a></li>
+                                <li><a href=""> Class Config </a></li>
+                                <li><a href=""> Signature </a></li>
+                            </ul>
+                        </li>
+
+                        <li class="toggleItemSub"><a><span>Subject Settings</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                            <ul class="sidenav_sub_menu_sub">
+                                <li><a href="">Subject Config</a></li>
+                                <li><a href="">4th Subject Config</a></li>
+                            </ul>
+
+                        </li>
+
+                        <li class="toggleItemSub"><a><span>User Settings</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                            <ul class="sidenav_sub_menu_sub">
+                                <li><a href="">User Assign</a></li>
+                            </ul>
+
+                        </li>
+                    
+                    </ul>
+                    <!-- submenu end -->
+                </li>
+                
+                <!-- item -->
+                <li class="toggleItem"><a> <span class="sidebar_navitem_left"> Help </span>  <span class="sidebar_navitem_right"> <i class="fa-solid fa-angle-down"></i>  
+                    <i class="material-icons">live_help</i> </span> </a>
+                
+                        <!-- sub menu -->
+                        <ul class="sidenav_sub_menu">
+
+                            <li class="toggleItemSub"><a><span>Token</span> <span><i class="fa-solid fa-angle-down"></i> </span></a>   
+                                <ul class="sidenav_sub_menu_sub">
+                                    <li><a href=""> Problem Submit</a></li>
+                                </ul>
+                            </li>
+
+                            <p class="sidebar_listReport">REPORTS</p>
+
+    
+                            <li class="toggleItemSub"><a><span> Problem </span> <span><i class="fa-solid fa-angle-down"></i> </span></a>
+                            
+                            </li>
+                        
+                        </ul>
+                        <!-- submenu end -->
+                </li>
+      
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- 
+    ===================================
+        End dashboard sidebar 
+    ===================================   
+    -->
+
+    <!--
+    =====================================
+          start admin body 
+    =====================================
+    -->
+
+    <section class="admin_body incrollment_body">
+        <div class="admin_body_wrapper">
+            <!--incrolment header -->
+            <div class="incrollment_body_header">
+                <div class="incrollment_body_header_tite">
+                    <p> Create Exam Routine </p>
+                </div>
+
+                <div class="help-icon_header">
+                    <i class="material-icons">help</i>
+                </div>
+            </div>
+
+            <!-- exelform body -->
+
+
+            <div class="exelform_body_border">
+                
+               <div class="SEmark_form_config_box">
+
+                <!-- form -->
+                <div class="incroment_form_box">
+                    <div class="incroment_form_box_wrapper">
+                       
+                    <!-- form item-->
+                    <div class="form_group">
+                        <!-- show -->
+                        <div class="show_form_group">
+                            <!-- title -->
+                            <div class="show_form_group_title">
+                                <span>Session</span>
+                                <span class="requirment">*</span>
+                            </div>
+
+                            <!-- input box -->
+                            <div class="form_group_label">
+                                <div class="form_group_label_name">Select Session</div>
+                                <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
+                            </div>
+                        </div>
+
+                        <!-- hide -->
+                        <div class="hide_form_group">
+                            <div class="hide_form_group_search">
+                                <input class="hide_form_group_search_input" type="text">
+                            </div>
+
+                            <div class="hide_form_group_search_list">
+                                <ul>
+                                    <li class="">1st Session</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+               
+
+                        <!-- item -->
+                        <div class="form_group">
+                            <!-- show -->
+                            <div class="show_form_group">
+                                <!-- title -->
+                                <div class="show_form_group_title">
+                                    <span>Subject</span>
+                                    <span class="requirment">*</span>
+                                </div>
+
+                                <!-- input box -->
+                                <div class="form_group_label">
+                                    <div class="form_group_label_name">Class Subject</div>
+                                    <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
+                                </div>
+                            </div>
+
+                            <!-- hide -->
+                            <div class="hide_form_group">
+                                <div class="hide_form_group_search">
+                                    <input class="hide_form_group_search_input" type="text">
+                                </div>
+
+                                <div class="hide_form_group_search_list">
+                                    <ul>
+                                        <li class="">English</li>    
+                                        <li class="">Bangla</li>    
+                                        <li class="">Math</li>    
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- form item-->
+
+                    <!-- item -->
+                    <div class="form_group">
+                        <!-- show -->
+                        <div class="show_form_group">
+                            <!-- title -->
+                            <div class="show_form_group_title">
+                                <span>Academic Year</span>
+                                <span class="requirment">*</span>
+                            </div>
+
+                            <!-- input box -->
+                            <div class="form_group_label">
+                                <div class="form_group_label_name">Select Academic Year</div>
+                                <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
+                            </div>
+                        </div>
+
+                        <!-- hide -->
+                        <div class="hide_form_group">
+
+                            <div class="hide_form_group_search_list">
+                                <ul>
+                                    <li class=""> 2022 </li>
+                                    <li class=""> 2023 </li> 
+                               
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="form_group">
+                        <!-- show -->
+                        <div class="show_form_group">
+                            <!-- title -->
+                            <div class="show_form_group_title">
+                                <span>Exam</span>
+                                <span class="requirment">*</span>
+                            </div>
+
+                            <!-- input box -->
+                            <div class="form_group_label">
+                                <div class="form_group_label_name">Select Exam</div>
+                                <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
+                            </div>
+                        </div>
+
+                        <!-- hide -->
+                        <div class="hide_form_group">
+
+                            <div class="hide_form_group_search_list">
+                                <ul>
+                                    <li class=""> 1st Semester </li>
+                                    <li class=""> 2nd Semester </li>
+                                    <li class=""> 3rd Semester </li>
+                                    <li class=""> 4th Semester </li>
+                                    <li class=""> 5th Semester </li>
+                                    <li class=""> 6th Semester </li>
+                               
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                     <!-- form item-->
+                     <div class="form_group">
+                        <!-- show -->
+                        <div class="show_form_group">
+                            <!-- title -->
+                            <div class="show_form_group_title">
+                                <span>Class</span>
+                                <span class="requirment">*</span>
+                            </div>
+
+                            <!-- input box -->
+                            <div class="form_group_label">
+                                <div class="form_group_label_name">Select Class</div>
+                                <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
+                            </div>
+                        </div>
+
+                        <!-- hide -->
+                        <div class="hide_form_group">
+                            <div class="hide_form_group_search">
+                                <input class="hide_form_group_search_input" type="text">
+                            </div>
+
+                            <div class="hide_form_group_search_list">
+                                <ul>
+                                    <li class="">One</li>
+                                    <li class="">Two</li>
+                                    <li class="">Three</li>
+                                    <li class="">Four</li>
+                                    <li class="">Five</li>
+                                    <li class="">Six</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- item -->
+                    <div class="form_group">
+                        <!-- show -->
+                        <div class="show_form_group">
+                            <!-- title -->
+                            <div class="show_form_group_title">
+                                <span>Date</span>
+                                <span class="requirment">*</span>
+                            </div>
+
+                            <!-- input box -->
+                            <input type="time" class="form_group_label form_group_label_input" placeholder="Enter Start Time">
+                        </div>
+                    </div>
+
+
+                    <!-- item -->
+                    <div class="form_group">
+                        <!-- show -->
+                        <div class="show_form_group">
+                            <!-- title -->
+                            <div class="show_form_group_title">
+                                <span>Group</span>
+                                <span class="requirment">*</span>
+                            </div>
+
+                            <!-- input box -->
+                            <div class="form_group_label">
+                                <div class="form_group_label_name">Choose</div>
+                                <div class="form_group_label_icon"><span><i class="fa-solid fa-angle-down"></i></span></div>
+                            </div>
+                        </div>
+
+                        <!-- hide -->
+                        <div class="hide_form_group">
+
+                            <div class="hide_form_group_search_list">
+                                <ul>
+                                    <li class="">N/A</li>
+                               
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- item -->
+                    <div class="form_group">
+                        <!-- show -->
+                        <div class="show_form_group">
+                            <!-- title -->
+                            <div class="show_form_group_title">
+                                <span>Room No.</span>
+                                <span class="requirment">*</span>
+                            </div>
+
+                            <!-- input box -->
+                            <input type="text" class="form_group_label form_group_label_input" placeholder="Enter Room No.">
+                        </div>
+                    </div>
+
+
+
+         
+
+
+                    <!-- form item button -->
+                    <div class="form_group_label_button" style="margin-left: auto;">
+                        <span><i class="fa-solid fa-floppy-disk"></i></span>
+                        <span>Save</span>
+                    </div>
+                    
+                    </div>
+                </div>
+               </div>
+
+
+                <!-- table -->
+                <div class="incrolment_table">
+                    <div class="incrolment_table_title profile_table_title">
+                        <span>Student List</span>
+                        <span>Total Found:2</span>
+                    </div>
+
+                    <div class="incrolment_table_header">
+                        <table>
+
+                            <thead>
+
+                                <tr>
+                                
+                                    <th> Academic Year <span></span>
+                                        
+                                        <input type="text" class="profile_table_thInput classInfo_table_thInput_Name">
+
+                                    </th>
+
+                                    <th> Session <span></span>
+                                        
+                                        <input type="text" class="profile_table_thInput classInfo_table_thInput_Name">
+
+                                    </th>
+
+                                    <th> Class <span></span>
+                                        
+                                        <input type="text" class="profile_table_thInput classInfo_table_thInput_Name">
+
+                                    </th>
+
+                                    <th> Exam <span></span>
+                                        
+                                        <input type="text" class="profile_table_thInput classInfo_table_thInput_Name">
+
+                                    </th>
+
+                                    <th> Group <span></span>
+                                        
+                                        <input type="text" class="profile_table_thInput classInfo_table_thInput_Name">
+
+                                    </th>
+
+                                    <th> Date <span></span>
+                                        
+                                        <input type="text" class="profile_table_thInput classInfo_table_thInput_Name">
+
+                                    </th>
+
+                                    <th> Time <span></span>
+                                        
+                                        <input type="text" class="profile_table_thInput classInfo_table_thInput_Name">
+
+                                    </th>
+
+                                    <th> Room No <span></span>
+                                        
+                                        <input type="text" class="profile_table_thInput classInfo_table_thInput_Name">
+
+                                    </th>
+
+                                    <th>  Subject <span></span>
+                                        
+                                        <input type="text" class="profile_table_thInput classInfo_table_thInput_Name">
+
+                                    </th>
+
+                                    <th> Action <span></span>
+                                        
+                                        <input type="text" class="profile_table_thInput classInfo_table_thInput_Name">
+
+                                    </th>
+
+                                </tr>
+
+                            </thead>
+
+                            <tbody>
+                                
+                                <tr class="profile_table">
+                                    <td class="">2022</td>
+                                    <td>1st Session	</td>
+                                    <td>One</td>
+                                    <td>1ST SEMESTER</td>
+                                    <td>N/A</td>
+                                    <td>27/04/2022</td>
+                                    <td>06:52 AM - 10:51 PM</td>
+                                    <td>20</td>
+                                    <td>Bangla</td>
+                                    <td class="table_input5 table_input">
+                                        <span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 12 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="font-size: 1.5em;"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"></path></svg></span>
+                                    </td>
+                              
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="student_table_bottom">
+                        <a href=""><i class="fa-solid fa-angle-left"></i></a>
+                        <span class="">1</span>
+                        <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                        
+                        <div class="student_table_bottom_count">
+                            <select name="" id="">
+                                <option value="">5</option>
+                                <option value="">10</option>
+                                <option value="">15</option>
+                                <option value="">20</option>
+                                <option value="">25</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+
+              
+
+               
+               
+            </div>
+        </div>
+    </section>
+
+    <!--
+    =====================================
+          End admin body 
+    =====================================
+    -->
+
+    <!-- script -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
