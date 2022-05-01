@@ -20,6 +20,10 @@
         overflow-x: unset;
     }
 
+    .incrolment_table_pr{
+        overflow-x: scroll;
+    }
+
     .Attendance_Preview_hr_wrapper{
     
         grid-template-columns: repeat(3, 1fr);
@@ -237,6 +241,23 @@
 
     .Sta_form_wrapper {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .prstratup_settings_wrapper{
+        flex-direction: row;
+    }
+    
+    .prstratup_settings_wrapper_left{
+        width: 50%;
+    }
+    
+    .prstratup_settings_wrapper_right{
+        width: 50%;
+    }
+
+    .Seremarks_group_subbox{
+        width: 48%;
     }
 
 }

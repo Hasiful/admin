@@ -449,3 +449,59 @@ span.group_massage_list_leave {
     font-size: 13px;
     font-weight: 500;
 }
+
+.prstratup_settings_wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.prstratup_settings_wrapper_left{
+    width: 100%;
+}
+
+.prstratup_settings_wrapper_right{
+    width: 100%;
+}
+
+.Seremarks_group_subbox{
+    width: 100%;
+}
+
+.Inventory_total_form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-top: 2px dotted #2f3292;
+}
+
+.Inventory_total_form_text,
+.Inventory_total_form_taka{
+    color: #2f3292;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Inventory_total_form_taka{
+    color: #000 !important;
+}
+
+.form_group_label_input_icon {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.form_group_label_input_icon span i {
+    color: #fff;
+    background-color: #2f3292;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
