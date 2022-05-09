@@ -29,6 +29,10 @@
         grid-template-columns: repeat(3, 1fr);
      
     }
+
+    .LAsetting_tepmplate_wrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
     
    
 }
@@ -258,6 +262,35 @@
 
     .Seremarks_group_subbox{
         width: 48%;
+    }
+
+    .LAsetting_tepmplate_wrapper{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .form_group_textarea_Laset{
+        width: 48%;
+    }
+
+    .Ms_create_wrapper{
+        flex-direction: row;
+    }
+
+    .Ms_create_wrapper_left{
+        width: 63%;
+    }
+    .Ms_create_wrapper_right{
+        width: 36%;
+    }
+
+    .cts_core_form_wrapper{
+        flex-direction: row;
+    }
+    .Core_form_left{
+        width: 57%;
+    }
+    .Core_form_right{
+        width: 43%;
     }
 
 }
