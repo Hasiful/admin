@@ -678,3 +678,39 @@ span.group_massage_list_leave {
     margin-top: 20px;
     flex-wrap: wrap;
 }
+
+.help_token_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+}
+.help_token_wrapper_left{
+    width: 100%;
+}
+.help_token_wrapper_right{
+    width: 100%;
+}
+
+.help_token_right_text_box {
+    width: 100%;
+    height: 100%;
+    background: rgb(86, 90, 236);
+    padding: 75px 20px;
+}
+
+.help_token_right_text_box_icon{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.help_token_right_text_box_content{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.8;
+}

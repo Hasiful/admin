@@ -293,6 +293,17 @@
         width: 43%;
     }
 
+    .help_token_wrapper{
+        flex-direction: row;
+    }
+
+    .help_token_wrapper_left{
+        width: 64%;
+    }
+    .help_token_wrapper_right{
+        width: 36%;
+    }
+
 }
 
 /* 
